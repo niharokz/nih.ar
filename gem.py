@@ -7,8 +7,8 @@
 #       ██║╚██╗██║██║██╔══██║██╔══██║██╔══██╗╚════██║
 #       ██║ ╚████║██║██║  ██║██║  ██║██║  ██║███████║
 #       ╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-#       DRAFTED BY [https://nihars.com] ON 20-06-2021.
-#       SOURCE [gem.py] LAST MODIFIED ON 07-07-2021.
+#       DRAFTED BY [https://nih.ar] ON 20-06-2021.
+#       SOURCE [gem.py] LAST MODIFIED ON 19-10-2022.
 #
 
 from yaml import safe_load
