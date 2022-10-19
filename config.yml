@@ -1,0 +1,23 @@
+# Mandatory Configuration
+title : nih.ar
+url : https://nih.ar
+note_template : template/note_template.html   # Template of note page
+home_template : template/home_template.html   # Template of home page
+feed_template : template/feed_template.xml   # Template of feed/rss page
+home_path : public  # After built, static files will be generated here
+content_path : content # All post notes markdown location
+resource_path : resource # All css, js, image location
+home_md : content/home.md # Homepage content
+header_md : content/header.md # Header content
+footer_md : content/footer.md # Footer content
+
+# Optional Configuration, Add your own configs here
+site-title : nihar's page on the internet
+desc : Personal webpage of Nihar Samantaray, a banking developer from India who is interested on Open Source projects and linux environment. He also writes technical stuffs.
+css : main.css
+fav : favicon.ico
+pht : logo.png
+mail : hi@nihars.com
+pgpkey : publickey.asc
+
+homefooter : '<p># Member of <a href="https://1mb.club">1mb.club</a></p>'

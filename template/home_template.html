@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-IN" data-theme="dark">
+
+<head>
+<meta charset="utf-8">
+<title>{{ config.get('site-title') }}</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content=" {{ config.get('desc') }}">
+<link rel="shortcut icon" href="{{ config.get('fav') }}" />
+<link rel="alternate" type="application/atom+xml" title="Recent blog posts" href="/rss.xml">
+<link rel="stylesheet" type="text/css" media="screen" href="{{ config.get('css') }}" />
+<link rel="pgpkey" type="application/pgp-keys" href="{{ config.get('pgpkey') }}">
+</head>
+
+<body>
+<header>
+<h1><a href="/">{% filter lower %} {{ title }} {% endfilter %}</a></h1>
+{{ header }}
+</header>
+<section>
+{{article}}
+<ul>{% for post in posts %}{% if (post.showInHome is undefined) or post.showInHome %}
+<li><time>{{ post.date.strftime('%Y-%m-%d') }}</time> -- <a href="{{ post.url[0:-5] }}">{% filter lower %} {{ post.title }} {% endfilter %}</a></li>{% endif %}{% endfor %}
+</ul>
+</section>
+<section>
+{{ config.get('homefooter') }}
+</section>
+<footer>
+{{ footer }}
+</footer>
+</body>
+
+</html>

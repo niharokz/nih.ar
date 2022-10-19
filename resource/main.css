@@ -1,0 +1,13 @@
+:root{--bg:#F9FCFC;--txt:#474949;--thm:#3B847E}
+@media (prefers-color-scheme: dark){:root{--bg:#080C0C;--txt:#C6DFDD;--thm:#42938C}}
+body{background:var(--bg);color:var(--txt);font:1.2em/1.6em sans-serif;max-width:660px;margin:7% auto auto;padding:0 5%}
+h1,h2,h3{font-size:1em}
+a{color:var(--thm);text-decoration:none}
+a:hover{color:var(--bg);background-color:var(--thm);padding-top:3px}
+header h1{color:var(--thm);font-size:1.2em;display:inline}
+nav{font-weight:bold;display:inline}
+ul{padding-left:20px;list-style-type:'-- ';line-height:1.4}
+pre{border:1px solid var(--txt);padding:1em;overflow-x:auto}
+code{background:var(--thm)}
+pre code{background:none}
+@media(max-width:480px){body{font:1em/1.4em sans-serif}}
