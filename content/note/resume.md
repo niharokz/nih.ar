@@ -5,11 +5,12 @@ showInHome : False
 date : 2022-10-19
 ---
             
+---------------------------------------
 
 NIHAR SAMANTARAY
 ================
 
-mail@nihars.com | www.nih.ar | linkedin.com/in/niharsamantaray
+mail@nihars.com | www.nih.ar | www.linkedin.com/in/niharsamantaray
 
 **Technology Analyst** with 6.6 years of experience developing different financial solutions in the banking sector at client locations. Seeking a challenging software engineering position in an organization where my skills and experience can be fully harnessed.
 
@@ -25,7 +26,7 @@ Worked extensively on retail loans and other loan modules. My primary responsibi
 * Integrating business requirement, feasibility and solutioning the same.
 * API configuration and enhancement.
 
-**Senior Systems Engineer - EdgeVerve** (Infosys Product Subsidiary) | Windhoek, Namibia | Feb 2019 - Feb 2022 
+**Senior Systems Engineer - EdgeVerve** | Windhoek, Namibia | Feb 2019 - Feb 2022 
 
 Worked on the development, implementation, and support of a new payment system for a client. Below were my responsibilities to complete the deployment of the project:  
 
@@ -57,6 +58,11 @@ Technical and Functional Skills
 
 Education and Projects
 ----------------
-* Bachelor's degree in Computer Science Engineering (2012-2016) from BPUT with 8.14 CGPA.  
+* Bachelor's degree in Computer Science Engineering (2012-2016) from BPUT.  
 * Rust program to consume currency feeds and display the graph as a command-line app.
 
+
+---------------------------------------
+DOWNLOAD: [md](/)
+
+---------------------------------------
