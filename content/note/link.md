@@ -31,3 +31,7 @@ This is a collection of notes, pages, links, and other resources.
 * [telegram](https://telegram.me/niharokz)
 * [nihar](https://instagram.com/dontasknihar)
 * matrix @nihar.page:matrix.org
+
+\# experiments
+
+* [gemini](https://portal.mozz.us/gemini/nih.ar/index.gmi)
