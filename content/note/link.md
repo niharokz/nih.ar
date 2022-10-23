@@ -29,4 +29,5 @@ This is a collection of notes, pages, links, and other resources.
 * [github](https://github.com/niharokz)
 * [gitlab](https://gitlab.com/niharokz)
 * [telegram](https://telegram.me/niharokz)
+* [nihar](https://instagram.com/dontasknihar)
 * matrix @nihar.page:matrix.org

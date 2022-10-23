@@ -2,7 +2,7 @@
 title : "about nihar"
 subtitle : "about nihar"
 showInHome : False
-date : 2022-09-03
+date : 2022-10-23
 ---
 
 I am Nihar Samantaray, a developer from India.
@@ -21,4 +21,4 @@ Also, I am a big fan of manga and [anime](/anime).
 I don't use these social networks. But still, if you want to connect, feel free.
 
 * [twitter](https://twitter.com/niharokz)
-* [instagram](https://www.instagram.com/niharokz)
+* [instagram](https://www.instagram.com/dontasknihar)

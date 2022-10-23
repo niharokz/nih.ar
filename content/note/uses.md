@@ -10,8 +10,8 @@ What I use at work on a day to day basis, changes from time to time but I’ll t
 # Hardware
 
 * Lenovo Ideapad 5
-* Acer Predator 300
 * Samsung Galaxy S22 Ultra
+* Acer Predator 300
 
 # Software
 
