@@ -1,7 +1,7 @@
 ---
 title : "nihar's - what i use"
 subtitle : "nihar's - what i use"
-showInHome : True
+showInHome : False
 date : 2022-10-19
 ---
             
