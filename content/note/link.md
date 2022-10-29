@@ -34,4 +34,4 @@ This is a collection of notes, pages, links, and other resources.
 
 \# experiments
 
-* [gemini](https://portal.mozz.us/gemini/nih.ar/index.gmi)
+* [gemini](https://portal.mozz.us/gemini/nih.ar)

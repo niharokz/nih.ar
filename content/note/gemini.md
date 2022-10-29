@@ -2,7 +2,7 @@
 title : "Self Hosting Gemini Capsule"
 subtitle : "All about Gemini Protocol and Capsule."
 showInHome : True
-date : 2022-10-23
+date : 2022-03-23
 ---
 
 
@@ -122,7 +122,7 @@ Enjoy your first gemini capsule.
 
 For information about how to write in "gemtext" the markup language in Gemini, see this site: https://gemini.circumlunar.space/docs/gemtext.gmi. As you might guess, it also has an analogous gemini capsule here: gemini://gemini.circumlunar.space/docs/gemtext.gmi
 
-My gemini capsule: [https://portal.mozz.us/gemini/nih.ar/](https://portal.mozz.us/gemini/nih.ar/index.gmi)
+My gemini capsule: [https://portal.mozz.us/gemini/nih.ar/](https://portal.mozz.us/gemini/nih.ar/)
 -------------------------------------------------
 
 This ariticle is also available at [landchad](https://landchad.net/gemini/)
