@@ -21,9 +21,9 @@
   {% for post in posts %}{% if (post.showInHome is undefined) or post.showInHome %}
   <item>
    <title>{{ post.title }}</title>
-   <link>{{ config.get('url') }}{{ post.url }}</link>
+   <link>{{ config.get('url') }}{{ post.url | replace(".html","") }}</link>
    <pubDate>{{ post.date.strftime('%a, %d %b %Y %H:%M:%S GMT') }}</pubDate>
-   <guid isPermaLink="false">{{ config.get('url') }}{{ post.url }}</guid>
+   <guid isPermaLink="false">{{ config.get('url') }}{{ post.url | replace(".html","") }}</guid>
 			<description><![CDATA[{{ post.subtitle }} - {{ post.note }} ]]></description>
   </item>
 		{% endif %}{% endfor %}
