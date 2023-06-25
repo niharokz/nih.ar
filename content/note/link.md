@@ -25,10 +25,6 @@ This is a collection of notes, pages, links, and other resources.
 * [telegram](https://telegram.me/niharokz)
 * [nstagram](https://instagram.com/dontasknihar)
 
-\# experiments
-
-* [gemini](https://portal.mozz.us/gemini/nih.ar)
-
 \# useless list
 
 * [anime I watch](/anime)

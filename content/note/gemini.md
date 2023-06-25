@@ -122,7 +122,7 @@ Enjoy your first gemini capsule.
 
 For information about how to write in "gemtext" the markup language in Gemini, see this site: https://gemini.circumlunar.space/docs/gemtext.gmi. As you might guess, it also has an analogous gemini capsule here: gemini://gemini.circumlunar.space/docs/gemtext.gmi
 
-My gemini capsule: [https://portal.mozz.us/gemini/nih.ar/](https://portal.mozz.us/gemini/nih.ar/)
+My gemini capsule: [https://portal.mozz.us/gemini/nih.ar/](https://portal.mozz.us/gemini/nih.ar/) discontinued
 -------------------------------------------------
 
 This ariticle is also available at [landchad](https://landchad.net/gemini/)

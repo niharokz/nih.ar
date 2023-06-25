@@ -1,12 +1,3 @@
----
-title : "nihar's resume"
-subtitle : "nihar's resume"
-showInHome : False
-date : 2022-10-19
----
-            
----------------------------------------
-
 NIHAR SAMANTARAY
 ================
 
@@ -60,9 +51,3 @@ Education and Projects
 ----------------
 * Bachelor's degree in Computer Science Engineering (2012-2016) from BPUT.  
 * Rust program to consume currency feeds and display the graph as a command-line app.
-
-
----------------------------------------
-DOWNLOAD: [md](/resume.md)
-
----------------------------------------
