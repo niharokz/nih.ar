@@ -15,7 +15,7 @@ What I use at work on a day to day basis, changes from time to time but I’ll t
 
 # Software
 
-* Arch Linux
+* Arch Linux dual boot Windows 11
 * Vim
 * Brave Browser
 * Tutanota

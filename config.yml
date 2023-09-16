@@ -14,10 +14,9 @@ footer_md : content/footer.md # Footer content
 # Optional Configuration, Add your own configs here
 site-title : nihar's page on the internet
 desc : Personal webpage of Nihar Samantaray, a banking developer from India who is interested on Open Source projects and linux environment. He also writes technical stuffs.
-css : main.css
+css : nss.css
 fav : favicon.ico
 pht : logo.png
 mail : hi@nihars.com
-pgpkey : publickey.asc
 
 homefooter : '<p># Member of <a href="https://512kb.club/">512kb.club</a>, <a href="https://1mb.club">1mb.club</a>, <a href="https://darktheme.club/">darktheme.club</a>, and <a href="https://namehack.club/">namehack.club</a>.</p>'
