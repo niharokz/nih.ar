@@ -1,5 +1,5 @@
 ---
-title : "Arch Installation Guide Minimalist Way"
+title : "Arch Installation Guide"
 subtitle : "Arch Installation process is the gap between newbie and pro. Any Linux installation without any installer is good way to understand basic linux architecture."
 showInHome : True
 date : 2023-09-16
@@ -10,10 +10,8 @@ This note is a guide to install arch Linux flavoured with dwm.
 
 ## Connect to internet
 
-iwctl   :   For wifi connection.
-
+    iwctl   :   For wifi connection.
     station device get-networks
-
     iwctl --passphrase passphrase station device connect SSID
 
 
