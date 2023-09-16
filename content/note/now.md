@@ -2,7 +2,7 @@
 title : "what am I doing now"
 subtitle : "now"
 showInHome : False
-date : 2022-09-03
+date : 2023-09-16
 ---
 
 * Living in Dubai

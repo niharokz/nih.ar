@@ -15,7 +15,7 @@ What I use at work on a day to day basis, changes from time to time but I’ll t
 
 # Software
 
-* Arch Linux dual boot Windows 11
-* Vim
+* Windows 11 mostly. But arch on thumb drive.
+* Neovim
 * Brave Browser
-* Tutanota
+* [Zoho mail](https://go.zoho.com/4r5)

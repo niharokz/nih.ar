@@ -2,7 +2,7 @@
 title : "nihar's wikipage"
 subtitle : "This is a collection of notes, pages, links, and other resources."
 showInHome : False
-date : 2022-09-04
+date : 2023-09-16
 ---
 
 
@@ -16,14 +16,13 @@ This is a collection of notes, pages, links, and other resources.
 \# places to get me:
 
 * [mail](mailto:hi@nihars.com)
-* [keyoxide](https://keyoxide.org/hkp/63F683DF74B36775429B2F0EC9CF021EB359F260)
 * [mastodon](https://fosstodon.org/@nihar)
-* [twitter](https://twitter.com/dontasknihar)
-* [codeberg](https://codeberg.org/niharokz)
+* [x.com](https://twitter.com/dontasknihar)
+* [linkedin](https://www.linkedin.com/in/niharsamantaray/)
 * [github](https://github.com/niharokz)
 * [gitlab](https://gitlab.com/niharokz)
 * [telegram](https://telegram.me/niharokz)
-* [nstagram](https://instagram.com/dontasknihar)
+* [Instagram](https://instagram.com/dontasknihar)
 
 \# useless list
 
