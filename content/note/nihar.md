@@ -5,20 +5,17 @@ showInHome : False
 date : 2022-10-23
 ---
 
-I am Nihar Samantaray, a developer from India.
+Hey, I'm Nihar Samantaray. A self-taught backend developer and CLI Enthusiast.
 I enjoy turning complex codes and projects into simple and modular ones.
-By day, I am a System Engineer at Edgeverve where we build modern banking applications. By night, I am an open-source developer.
-
-* I can code in Java, Bash and Python.
-* Prefers CLI workflow. VIM over VSCode any-day, anytime.
-
-I am open to help if you need some kind of expertise I have.
-If so, you can mail me. ( [hi@nihars.com](mailto:hi@nihars.com) )  
+I'm a big believer in keeping things simple and clean, that's why I'm a software minimalist!
 
 
-Also, I am a big fan of manga and [anime](/anime).
+By day, I am a System Engineer at [Edgeverve](https://www.edgeverve.com/finacle/) where we build modern banking applications. By night, I am an open-source developer.
+On my free time, I happen to write a bunch of software that you can find on [gitlab](https://github.com/niharokz).
+If you're looking for information about my professional life, check out my **[portfolio](/resume)**.
 
-I don't use these social networks. But still, if you want to connect, feel free.
+Beside coding, my hobbies are [crypto](/crypto), photography, [anime](/anime) and also regular stuff like roaming around with friends.
 
-* [twitter](https://twitter.com/niharokz)
-* [instagram](https://www.instagram.com/dontasknihar)
+
+I will be happy to receive your feedback, doubts or suggestions in my inbox. ( [hi@nihars.com](mailto:hi@nihars.com) )  
+

@@ -2,67 +2,71 @@
 title : "nihar's resume"
 subtitle : "nihar's resume"
 showInHome : False
-date : 2022-10-19
+date : 2023-10-29
 ---
             
 ---------------------------------------
+
 
 NIHAR SAMANTARAY
 ================
 
 mail@nihars.com | www.nih.ar | www.linkedin.com/in/niharsamantaray
 
-**Technology Analyst** with 6.6 years of experience developing different financial solutions in the banking sector at client locations. Seeking a challenging software engineering position in an organization where my skills and experience can be fully harnessed.
+**Finacle techno-functional** with 7+ years of experience developing different financial solutions in the banking sector at client locations. Currently, I am associated with Edgeverve Ltd. as a Finacle developer working from the client side.
 
->   Java Interface development, RDBMS with Oracle PL/SQL, Bash and Python scripting, Automation tools, API Integration, Finacle Core Banking
+>   Retail Loans. EODs. API development. Batch jobs. Menu customization. Reports. Shell scripting. PL/SQL. Versioning using SVN and GIT. JIRA tracking. Finacle. Excel(VBScript).
 
 Work Experience
 ----------------
 
 **Technology Analyst - EdgeVerve** (Infosys Product Subsidiary) | Dubai, UAE | Feb 2022 - Present
 
-Worked extensively on retail loans and other loan modules. My primary responsibilities includes:
+I have worked extensively on retail loans and other loan modules. My primary responsibilities include:
 
-* Integrating business requirement, feasibility and solutioning the same.
-* API configuration and enhancement.
+* Responsible for the complete life cycle of the retail loans project. Was involved from requirement gathering to post-live support.
+* Integrating business requirements, feasibility, and solutions the same. Configuration and maintenance of parameters and patches.
+* Experienced developing, debugging, and testing API, batches, procedures, reports, and product/custom menus.
+* Knowledge of loan-related menus and functionalities. Have a good understanding of financial accounting.
+* Worked on improving API performance, optimization of batch and procedure timings, improved code quality, and existing workflows.
 
 **Senior Systems Engineer - EdgeVerve** | Windhoek, Namibia | Feb 2019 - Feb 2022 
 
-Worked on the development, implementation, and support of a new payment system for a client. Below were my responsibilities to complete the deployment of the project:  
+I have worked on the development, implementation, and support of a new payment system for a client. Below are my responsibilities for completing the deployment of the project:  
 
-* Development and enhancement of different types of API generators using Java and Bash scripts that helped in achieving 60 TPS (transaction per second) from 2 TPS.  
-* Shell script to validate account numbers of different banks and branches in the country.  
-* Creating different types of API (XML, LST, CSV) to integrate with multiple peripherals and systems.  
-* Automated the tracing of logs which failed due to unknown reason.  
+* Responsible for the development of the PAIN payment system. I have also worked on migrating from ACH payment to the PAIN payment system.
+* Development of Finacle 10x menus, Jasper reports, and API handlers. Developed XML to CSV and vice versa converter Excel and VBScript.
+* Enhancement of scripts and SQL that helped in achieving 60 TPS (transaction per second) from 2 TPS at the initial phase of the project.  
+* Automated the tracing of logs which were failing due to unknown reasons. XML extraction from debug log files. 
    
 **Systems Engineer - EdgeVerve** | Bangalore, India | Dec 2016 - Jan 2019
 
-Parallelly worked on multiple short term projects. Data optimization, report generation, development of fronted menus were my responsibilities.  
+I have parallelly worked on multiple short-term projects. Infra and reports were my responsibilities.  
 
-* Optimization of SQL procedures and queries to generate different accounting statements and reports.
-* Development of Finacle 11x Frontend Menus using Java and javascript to display reports.  
-* Created command line apps like 'automation of was restart', 'user creation/reset', 'free port finder', 'multiple patch deployment in single instance'.  
+* Have worked extensively on reports and PL/SQL. I was involved in the development of Finacle 11x Frontend Menus using Java and JavaScript to display reports.  
+* Debugging and fixing infra-related issues. Patch creation. Finacle installation. Jboss and WAS installation.
+* Created command line apps like "automation of was restart",  "user creation/reset", "free port finder", and "multiple patch deployment in single instance".  
    
 **Systems Engineer - Infosys** | Mysore, India | Jun 2016 - Nov 2016
 
-Trained in basics of OOPS and DS programming with UX design to create a replica of an eCommerce website.  
+I was trained in basics of OOPS and DS programming with UX design to create a replica of an eCommerce website.  
 
 Technical and Functional Skills
 ----------------
-* Java development, Shell scripting, Python scripting, Javascript debugging. 
-* Sound knowledge of relational database which uses PL/SQL procedure, functions and complex queries.
-* Well aware of Linux and some Unix based servers and its utilities.  
+* Shell scripting, Python scripting, Javascript debugging. 
+* Sound knowledge of relational database that uses PL/SQL procedure, functions, and complex queries.
+* Well aware of Linux and some Unix-based servers and their utilities.  
 * Version controlling using git/svn and defect tracking with Jira.  
-* Scripting automation, command-line apps, APIs XSD/WSDL validating, VBscript Excel to xml generators.  
-* Functionally well versed with payments and loans in core banking terms.
+* Scripting automation, command-line apps, APIs XSD/WSDL validating, VBScript Excel to xml generators.  
+* Functionally well versed with loans in core banking terms. Have basic knowledge of ACH payments.
 
 Education and Projects
 ----------------
-* Bachelor's degree in Computer Science Engineering (2012-2016) from BPUT.  
-* Rust program to consume currency feeds and display the graph as a command-line app.
-
+* B.Tech. degree in Computer Science Engineering (2012-2016) from BPUT.  
+* Python program to consume currency feeds and display the graph as a command-line app.
 
 ---------------------------------------
-DOWNLOAD: [md](/resume.md)
+
+Download Resume : [resume.pdf](/resume.pdf) | [resume.md](/resume.md)
 
 ---------------------------------------

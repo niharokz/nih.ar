@@ -1,6 +1,6 @@
 Namaste! I'm [Nihar](/nihar), a hobbyist systems programmer from India. 
 
-This site is my small internet home. Here you'll find notes about my tech interests, things I've done, tips, and experiments. I want to make this website look minimalistic. So, there is no javascript and CSS class used on this site.
+This site is my small internet home. Here you'll find notes about my tech interests, things I've done, tips, and experiments. Find out how [this website works](/how_this_website_works).
 
 ## # project
 

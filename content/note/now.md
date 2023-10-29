@@ -2,14 +2,23 @@
 title : "what am I doing now"
 subtitle : "now"
 showInHome : False
-date : 2023-09-16
+date : 2023-10-27
 ---
 
-* Living in Dubai
-* Currently working for Emirates NBD bank.
-* Working on automating things.
-* Improving [pidgeotto](https://gitlab.com/niharokz/pidgeotto)
-* Designing this website
-* Watching [anime](/anime)
+# I am now
+* Living a fast-paced life in Dubai, focused on work and career.
+* Working for [Finacle, Edgeverve](https://www.edgeverve.com/finacle/) as a Technical Analyst.
+* Automating things which are boring like [narch](https://github.com/niharokz/narch).
+* Listening to Nirvana: Smells Like Teen Spirit.
+* Designing and updating this website.
+* Watching some quality [anime](/anime).
+* Planning to rewrite my codes in Go.
+* Hodling ethereum, doge and few ETFS.
+* Wondering about the meaning and purpose of life.
+* Using stairs instead of elevator.
 
-This page is inspired by Derek Sivers’s [now page movement](https://nownownow.com/).
+# In the past I
+* Lived in [Windhoek](https://en.wikipedia.org/wiki/Windhoek), [Bengaluru](https://en.wikipedia.org/wiki/Bengaluru), [Mysore](https://en.wikipedia.org/wiki/Mysore). Grew up in [Bhubaneswar, Odisha](https://en.wikipedia.org/wiki/Bhubaneswar).
+* Used to write code in java.
+
+This page is inspired by [nownownow movement](https://nownownow.com/).
