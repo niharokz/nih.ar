@@ -8,6 +8,11 @@ date : 2023-09-16
 
 This note is a guide to install arch Linux flavoured with dwm.
 
+## Create bootable disk
+    
+    lsblk
+    dd bs=4M if=path/to/archlinux-version-x86_64.iso of=/dev/disk/by-id/usb-My_flash_drive conv=fsync oflag=direct status=progress
+
 ## Connect to internet
 
     iwctl   :   For wifi connection.

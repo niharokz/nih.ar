@@ -23,6 +23,7 @@ This is a collection of notes, pages, links, and other resources.
 #sitemap
 * **about** : [/nihar](/nihar)
 * **resume** : [/resume](/resume)
+* **about website** : [/how_this_website_works](/how_this_website_works)
 
 # useless list:
 * anime I watch : [/anime](/anime)
