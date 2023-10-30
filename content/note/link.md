@@ -18,6 +18,12 @@ This is a collection of notes, pages, links, and other resources.
 * **telegram** : [https://telegram.me/niharokz](https://telegram.me/niharokz)
 * **instagram** : [https://instagram.com/dontasknihar](https://instagram.com/dontasknihar)
 
+---------------
+
+#sitemap
+* **about** : [/nihar](/nihar)
+* **resume** : [/resume](/resume)
+
 # useless list:
 * anime I watch : [/anime](/anime)
 * domains I own : [/domain](/domain)
