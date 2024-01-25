@@ -2,7 +2,7 @@
 title : "nihar's wikipage"
 subtitle : "This is a collection of notes, pages, links, and other resources."
 showInHome : False
-date : 2023-09-16
+date : 2024-01-26
 ---
 
 
@@ -12,11 +12,11 @@ This is a collection of notes, pages, links, and other resources.
 * **mail** : [hi@nihars.com](mailto:hi@nihars.com)
 * **fediverse** : [https://fosstodon.org/@nihar](https://fosstodon.org/@nihar)
 * **linkedin** : [https://www.linkedin.com/in/niharsamantaray](https://www.linkedin.com/in/niharsamantaray/)
-* **x.com** : [https://twitter.com/dontasknihar](https://twitter.com/niharokz)
+* **x.com** : [https://twitter.com/niharokz](https://twitter.com/niharokz)
 * **github** : [https://github.com/niharokz](https://github.com/niharokz)
 * **gitlab** : [https://gitlab.com/niharokz](https://gitlab.com/niharokz)
 * **telegram** : [https://telegram.me/niharokz](https://telegram.me/niharokz)
-* **instagram** : [https://instagram.com/dontasknihar](https://instagram.com/niharokz)
+* **instagram** : [https://instagram.com/niharokz](https://instagram.com/niharokz)
 
 ---------------
 
