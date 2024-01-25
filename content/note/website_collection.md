@@ -19,7 +19,7 @@ Not a front end developer. But this is something I grew up with. Here is my coll
 
 
 Hope I knew git earlier. Source code of all the above project were lost when hosting expired. Learnt a lesson: 'Always keep backup'.   
-Source code of nihars.in (2012-2016) and nihars.com (2016-2020) is archived in [this repository](https://github.com/niharokz/website_archive).
+Source code of nihars.in (2012-2016) and nihars.com (2016-2020) is archived in [this repository](https://gitlab.com/niharokz/website_archive).
 
 There are a few more websites I have worked on. Mostly these are Blogspot / similar platforms.  
 <ul>

@@ -2,18 +2,18 @@
 title : "what am I doing now"
 subtitle : "now"
 showInHome : False
-date : 2023-10-27
+date : 2024-01-25
 ---
 
 # I am now
+* Turned 30 on 26 January 2024.
 * Living a fast-paced life in Dubai, focused on work and career.
 * Working for [Finacle, Edgeverve](https://www.edgeverve.com/finacle/) as a Technical Analyst.
 * Automating things which are boring like [narch](https://github.com/niharokz/narch).
-* Listening to Nirvana: Smells Like Teen Spirit.
+* Listening to Nirvana: [Smells Like Teen Spirit](https://www.youtube.com/watch?v=hTWKbfoikeg).
 * Designing and updating this website.
 * Watching some quality [anime](/anime).
-* Planning to rewrite my codes in Go.
-* Hodling ethereum, doge and few ETFS.
+* Financially experimenting with crypto and share market.
 * Wondering about the meaning and purpose of life.
 * Using stairs instead of elevator.
 

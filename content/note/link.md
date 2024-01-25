@@ -12,18 +12,18 @@ This is a collection of notes, pages, links, and other resources.
 * **mail** : [hi@nihars.com](mailto:hi@nihars.com)
 * **fediverse** : [https://fosstodon.org/@nihar](https://fosstodon.org/@nihar)
 * **linkedin** : [https://www.linkedin.com/in/niharsamantaray](https://www.linkedin.com/in/niharsamantaray/)
-* **x.com** : [https://twitter.com/dontasknihar](https://twitter.com/dontasknihar)
+* **x.com** : [https://twitter.com/dontasknihar](https://twitter.com/niharokz)
 * **github** : [https://github.com/niharokz](https://github.com/niharokz)
 * **gitlab** : [https://gitlab.com/niharokz](https://gitlab.com/niharokz)
 * **telegram** : [https://telegram.me/niharokz](https://telegram.me/niharokz)
-* **instagram** : [https://instagram.com/dontasknihar](https://instagram.com/dontasknihar)
+* **instagram** : [https://instagram.com/dontasknihar](https://instagram.com/niharokz)
 
 ---------------
 
 #sitemap
 * **about** : [/nihar](/nihar)
 * **resume** : [/resume](/resume)
-* **about website** : [/how_this_website_works](/how_this_website_works)
+* **about website** : [/how this website works](/how_this_website_works)
 
 # useless list:
 * anime I watch : [/anime](/anime)
