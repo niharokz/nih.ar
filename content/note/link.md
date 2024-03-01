@@ -1,5 +1,5 @@
 ---
-title : "nihar's wikipage"
+title : "wikipage by nihar"
 subtitle : "This is a collection of notes, pages, links, and other resources."
 showInHome : False
 date : 2024-01-26
@@ -16,14 +16,14 @@ This is a collection of notes, pages, links, and other resources.
 * **github** : [https://github.com/niharokz](https://github.com/niharokz)
 * **gitlab** : [https://gitlab.com/niharokz](https://gitlab.com/niharokz)
 * **telegram** : [https://telegram.me/niharokz](https://telegram.me/niharokz)
-* **instagram** : [https://instagram.com/niharokz](https://instagram.com/niharokz)
+* **instagram** : [https://instagram.com/nihsama](https://instagram.com/nihsama)
 
 ---------------
 
 #sitemap
 * **about** : [/nihar](/nihar)
 * **resume** : [/resume](/resume)
-* **about website** : [/how this website works](/how_this_website_works)
+* **about website** : [/how_this_website_works](/colophon)
 
 # useless list:
 * anime I watch : [/anime](/anime)

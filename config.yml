@@ -1,3 +1,16 @@
+#!/bin/bash
+
+#
+#       ███╗   ██╗██╗██╗  ██╗ █████╗ ██████╗ ███████╗
+#       ████╗  ██║██║██║  ██║██╔══██╗██╔══██╗██╔════╝
+#       ██╔██╗ ██║██║███████║███████║██████╔╝███████╗
+#       ██║╚██╗██║██║██╔══██║██╔══██║██╔══██╗╚════██║
+#       ██║ ╚████║██║██║  ██║██║  ██║██║  ██║███████║
+#       ╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+#       DRAFTED BY [https://nih.ar] ON 27-02-2024.
+#       SOURCE [config.yml] LAST MODIFIED ON 27-02-2024.
+#
+
 # Mandatory Configuration
 title : nih.ar
 url : https://nih.ar
@@ -20,3 +33,4 @@ pht : logo.png
 mail : hi@nihars.com
 
 homefooter : '<p># Member of <a href="https://512kb.club/">512kb.club</a>, <a href="https://darktheme.club/">darktheme.club</a>, and <a href="https://namehack.club/">namehack.club</a>.</p>'
+
