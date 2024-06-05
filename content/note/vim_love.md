@@ -14,6 +14,7 @@ With most of my time now spent in the terminal, I've compiled a handy cheat shee
 ## Basic Commands in VIM
 
 **Modes of Vim:**
+
 - Normal mode: Pressing the escape key brings you to normal mode.
 - Insert mode: Use i, a, s, o, or similar to enter insert mode.
 - Visual mode: v for visual, shift+v for visual-line, cntr+v for visual block.
@@ -21,6 +22,7 @@ With most of my time now spent in the terminal, I've compiled a handy cheat shee
 - Replace mode: r for replacing a single character, R for replacing multiple characters.
 
 **Navigation in Vim:**
+
 - h: Move left
 - j: Move down
 - k: Move up
@@ -38,6 +40,7 @@ With most of my time now spent in the terminal, I've compiled a handy cheat shee
 - $: Move to the end of the line
 
 **Operations in Vim:**
+
 - i: Insert at the current position
 - a: Append after the current position
 - o: Insert a new line below the current line
@@ -52,22 +55,26 @@ With most of my time now spent in the terminal, I've compiled a handy cheat shee
 ## Registers, Macros, Bookmark, Buffers in VIM
 
 **Bookmark:**
+
 - ma: Set a bookmark named 'a'
 - `a: Move to the location of bookmark 'a'
 - :marks: List all bookmarks
 - :delmarks a: Delete bookmark 'a'
 
 **Macros:**
+
 - qa: Start recording a macro named 'a'
 - Enter your Vim actions
 - q: Stop recording the macro
 - @a: Play the recorded macro 'a'
 
 **Registers:**
+
 - "aY: Yank the current line in register 'a'
 - "ap: Paste from register 'a'
 
 **Buffers:**
+
 - :ls: List all buffers
 - :badd <file>: Add a file to a new buffer
 - :b2: Switch to the second buffer
@@ -76,6 +83,7 @@ With most of my time now spent in the terminal, I've compiled a handy cheat shee
 - :bd: Delete the current buffer
 
 **Tab and Windows:**
+
 - :vs: Vertical split
 - :sp: Horizontal split
 - :vs file: Open a file in a vertical split
