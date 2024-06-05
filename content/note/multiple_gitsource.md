@@ -1,75 +1,79 @@
 ---
-title : "One Git with Multiple Remotes" 
+title : "CLI sync for GitLab, GitHub, Codeberg" 
 subtitle : "use gitlab and github together for same repository on one machine" 
 showInHome : True
 date : 2021-02-14
 ---
 
-This article is about how to sync Gitlab, Github and Codeberg directly from the command line using git pull or push commands. Unlike mirror repositories, these repositories will be independent of each other. We also don't need different remote names for these repositories.
+This article focuses on syncing GitLab, GitHub, and Codeberg directly from the command line using git pull or push commands. Unlike mirrored repositories, these repositories will remain independent of each other, eliminating the need for different remote names.
 
-But if you want to keep a mirror copy of Gitlab in Github or vice-versa, [this article from Github](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html) is for you.
+However, if you're interested in maintaining a mirrored copy of GitLab in GitHub or vice versa, GitHub provides a specific article for that purpose.
 
-If you want to keep github and gitlab repositories independent, then follow the below guidelines.
-
-## Adding SSH-keys to your local machine. [optional step]
-
-We can use same keys for each git source. But I like to use different keys for different sources.
- 
-Generate unique SSH keys for Codeberg, Gitlab and Github.
-	
-	ssh-keygen -t rsa -C "some@mail.com" -f ~/.ssh/id_rsa_codeberg
-	ssh-keygen -t rsa -C "some@mail.com" -f ~/.ssh/id_rsa_gitlab 
-	ssh-keygen -t rsa -C "some@mail.com" -f ~/.ssh/id_rsa_github
-
-Add public keys to Codeberg, Gitlab and Github.
-
-	Add ~/.ssh/id_rsa_codeberg.pub to GitHub SSH-keys.
-	Add ~/.ssh/id_rsa_gitlab.pub to GitLab SSH-keys.
-	Add ~/.ssh/id_rsa_github.pub to GitHub SSH-keys.
-
-Register the keys in your local machine
-
-	ssh-add ~/.ssh/id_rsa_codeberg
-	ssh-add ~/.ssh/id_rsa_github
-	ssh-add ~/.ssh/id_rsa_gitlab
-
-Edit ~/.ssh/config  with below content
-
-	Host codeberg.org
-		HostName codeberg.org
-		User git
-		IdentityFile ~/.ssh/id_rsa_codeberg
-	Host gitlab.com
-		HostName gitlab.com
-		User git
-		IdentityFile ~/.ssh/id_rsa_gitlab
-	Host github.com
-		HostName github.com
-		User git
-		IdentityFile ~/.ssh/id_rsa_github
+If your aim is to keep GitHub and GitLab repositories independent, follow these guidelines:
 
 
-## Configure repositories and remotes
+## 1. Adding SSH Keys to Your Local Machine (Optional Step)
 
-Clone the original repository from Gitlab/Github/Codeberg to your local machine
+While you can use the same keys for each Git source, I prefer using different keys for different sources. Generate unique SSH keys for Codeberg, GitLab, and GitHub:
 
-	git clone git@github.com:username/repository_name.git
+    ssh-keygen -t rsa -C "some@mail.com" -f ~/.ssh/id_rsa_codeberg
+    ssh-keygen -t rsa -C "some@mail.com" -f ~/.ssh/id_rsa_gitlab 
+    ssh-keygen -t rsa -C "some@mail.com" -f ~/.ssh/id_rsa_github
 
-Create a remote instance of the same
+Add the public keys to Codeberg, GitLab, and GitHub:
 
-	cd repository_name
-	git remote set-url origin --add git@gitlab.com:username/repository_name.git
-	git remote set-url origin --add git@codeberg.org:username/repository_name.git
+* Add ~/.ssh/id_rsa_codeberg.pub to GitHub SSH keys.
+* Add ~/.ssh/id_rsa_gitlab.pub to GitLab SSH keys.
+* Add ~/.ssh/id_rsa_github.pub to GitHub SSH keys.
 
-To check all the remote for the repository, run the below
+Register the keys on your local machine:
 
-	git remote -v
+    ssh-add ~/.ssh/id_rsa_codeberg
+    ssh-add ~/.ssh/id_rsa_github
+    ssh-add ~/.ssh/id_rsa_gitlab
 
-The command should return something like 
+## 2. Editing ~/.ssh/config
 
-	origin	https://github.com/username/repository_name.git (fetch)
-	origin	https://github.com/username/repository_name.git (push)
-	origin	https://gitlab.com/username/repository_name.git (push)
-	origin	https://codeberg.org/username/repository_name.git (push)
+Edit the ~/.ssh/config file with the following content:
 
-Now you can just use git push and it will push on all remote.
+    Host codeberg.org
+        HostName codeberg.org
+        User git
+        IdentityFile ~/.ssh/id_rsa_codeberg
+    Host gitlab.com
+        HostName gitlab.com
+        User git
+        IdentityFile ~/.ssh/id_rsa_gitlab
+    Host github.com
+        HostName github.com
+        User git
+        IdentityFile ~/.ssh/id_rsa_github
+
+## 3. Configuring Repositories and Remotes
+
+* Clone the original repository from GitLab/GitHub/Codeberg to your local machine:
+
+    git clone git@github.com:username/repository_name.git
+
+* Create a remote instance of the same:
+
+    cd repository_name
+    git remote set-url origin --add git@gitlab.com:username/repository_name.git
+    git remote set-url origin --add git@codeberg.org:username/repository_name.git
+
+## 4. Checking Remote Repositories
+
+To check all the remotes for the repository, run:
+
+    git remote -v
+
+The command should return something like:
+
+    origin  https://github.com/username/repository_name.git (fetch)
+    origin  https://github.com/username/repository_name.git (push)
+    origin  https://gitlab.com/username/repository_name.git (push)
+    origin  https://codeberg.org/username/repository_name.git (push)
+
+
+Now you can simply use git push, and it will push changes to all remotes.
+

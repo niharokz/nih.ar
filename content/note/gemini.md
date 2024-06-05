@@ -1,90 +1,75 @@
 ---
-title : "Self Hosting Gemini Capsule"
+title : "Self-Hosting your Gemini Capsule"
 subtitle : "All about Gemini Protocol and Capsule."
 showInHome : True
 date : 2022-03-23
 ---
 
 
-## What is Gemini?
+Gemini is a novel internet protocol distinct from HTTP and Gopher. It offers a cleaner experience and boasts a growing community of hackers.
 
-Gemini is a new internet protocol which is different from the HTTP and Gopher. It's much cleaner and has a growing community and audience of hackers.
+## Why Opt for the Gemini Protocol?
 
-### Why use gemini protocol?
+Gemini capsules, or Gemini webpages, are lightweight, minimal, and demand minimal resources. They can seamlessly coexist with your existing websites, utilizing port 1965 by default while your web server operates on ports 80 or 443. Exploring this alternative protocol opens avenues for serving data and blogs differently. Accessing Gemini URLs (e.g., gemini://example.org) requires a Gemini client such as Amfora, Lagrange, or Elpher.
 
-* Gemini capsules (webpages of gemini) are lightweight, minimal, and don't use many resources to operate.
-* It can run along with your websites. Gemini capsules use port 1965 by default. Your webserver can run at port 80 or 443 along with gemini server at port 1965.
-* By exploring an alternative protocol, you can check different ways to serve data and blogs.
 
-To access any gemini urls i.e. gemini://example.org, you can use any gemini client such as amfora, lagrange, elpher, etc.
+### 1. Creating a Gemini User
 
-## Instructions
-
-### Create a gemini user
-
-It is most secure and clean to have a separate gemini user, so let's create one:
+For security and cleanliness, it's advisable to establish a separate Gemini user:
 
     useradd -m -s /bin/bash gemini
-    
-Now log in as gemini with the following command:
 
+Then, switch to the Gemini user:
+    
     su -l gemini
 
-To create and serve a gemini capsule, we need three basic steps:
+To create and serve a Gemini capsule, follow these three basic steps:
 
-1. Content – the webpages in our capsule
-2. TLS certificate – Gemini requires encrypted connection.
-3. Gemini server – the program that makes our capsule available (similar to Nginx for HTTP)
+1. Content: These are the webpages within your capsule.
+2. TLS Certificate: Gemini necessitates an encrypted connection.
+3. Gemini Server: This program makes your capsule available, akin to Nginx for HTTP.
 
-As the gemini user, we can create three different directories to simplify the process:
+As the Gemini user, organize three directories to streamline the process:
 
     mkdir -p ~/gemini/{content,certificate,server}
 
-### Content
+### 2. Content
 
-This will be the directory where your capsule files will be contained. Gemini uses text/gemini markup (in place of HTTP's equivalent HTML). It heavily borrows from Markdown. Similar to .html or .md, gemini uses .gmi as its extension.
-
-To create one gemini file, go inside the content directory and create one index.gmi file.
+This directory will house your capsule files. Gemini employs text/gemini markup (similar to Markdown). Create a gemini file within the content directory:
 
     nano gemini/content/index.gmi
 
-We can add the content we want in our Gemini capsule here:
+Add your desired content to this Gemini capsule file:
 
-    # This is Sample Gemini page
+    # This is a Sample Gemini page
     ## With header 1 and header 2
     And a short paragraph like this.
     => /index.gmi Link to the same page
 
-### TLS certificate
+### 3. TLS Certificate
 
-Go to the certificate directory which we created earlier and generate a TLS certificate using OpenSSL.
+Navigate to the certificate directory and generate a TLS certificate using OpenSSL:
 
     cd ~/gemini/certificate/
     openssl req -new -subj "/CN=example.org" -x509 -newkey ec -pkeyopt ec_paramgen_curve:prime256v1 -days 3650 -nodes -out cert.pem -keyout key.pem
 
-### Gemini server
+### 4. Gemini Server
 
-Download and prepare the server
-There are many gemini server software choices available. We will use agate server for now. This is a simple gemini server written in Rust.
-
-It's a good idea to always get the most recent version, which you can see on the agate releases page. At the time of this writing, that is agate v3.1.0 which we will now download. We will download it to the server directory we made.
+Download and prepare the server. We'll use the Agate server, a simple Gemini server written in Rust:
 
     cd ~/gemini/server
     wget https://github.com/mbrubeck/agate/releases/download/v3.1.0/agate.x86_64-unknown-linux-gnu.gz
-
-Unzip the gz, then rename and make it executable:
-
     gunzip agate.x86_64-unknown-linux-gnu.gz
     mv agate.x86_64-unknown-linux-gnu agate-server
     chmod +x agate-server
 
-#### Create a system service
+### 5. Create a System Service
 
-Now we need to create a systemd service to autostart and manage agate. The gemini user does not have permission to do this, so press ctrl-d to log out of the gemini user and return to root. As root, create the file below by opening it in your text editor (nano, vim, etc.):
+Switch back to root to create a systemd service:
 
     nano /etc/systemd/system/agate.service
 
-Add the following content to the file customizing highlighted text to your use.
+Customize the highlighted text to your setup:
 
     [Unit]
     Description=agate
@@ -97,28 +82,25 @@ Add the following content to the file customizing highlighted text to your use.
 
     [Install]
     WantedBy=default.target
-    
-Now we are ready to run server. Enable and run agate server.
+
+Enable and start the Agate server:
 
     systemctl enable agate
     systemctl start agate
 
-#### Firewall
+### 6. Firewall
 
-Lastly, if you have a firewall running, remember to open port 1965, which is the port number used by gemini:
+If you're running a firewall, remember to open port 1965:
 
     ufw allow 1965
 
-### Finalization
-Now your server should be running. If everything went okay, you can access your gemini capsule via any gemini client with a url like this:
+## Finalization
 
-    gemini://example.org
+With everything set up, your server should be running. Access your Gemini capsule via any Gemini client with a URL like gemini://example.org.
 
-Sample gemini site for reference:
+For reference, check out a sample Gemini site: gemini://gemini.circumlunar.space.
 
-    gemini://gemini.circumlunar.space
-
-Enjoy your first gemini capsule.
+Enjoy your first Gemini capsule!
 
 For information about how to write in "gemtext" the markup language in Gemini, see this site: https://gemini.circumlunar.space/docs/gemtext.gmi. As you might guess, it also has an analogous gemini capsule here: gemini://gemini.circumlunar.space/docs/gemtext.gmi
 

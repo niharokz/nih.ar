@@ -5,26 +5,27 @@ date: 2017-01-26
 showInHome : False
 ---
 
-Not a front end developer. But this is something I grew up with. Here is my collection of a few random websites/blogs from yesteryears.    
+Not being a front-end developer, I might be a fish out of water here. Nevertheless, let me take you on a trip down memory lane with some relics from my past web endeavors.
 
-<img src="/website_collection/ipsmun.jpg" alt="Indian Peace Summit 2016"><br>
-<img src="/website_collection/dreamagri.jpg" alt="Dream Agritech Pvt. Ltd."><br>
-<img src="/website_collection/abhiyantriki.jpg" alt="AbhiYantriki"><br>
-<img src="/website_collection/pmun.jpg" alt="pmun">
+![Indian Peace Summit 2016](/website_collection/ipsmun.jpg)  
+![Dream Agritech Pvt. Ltd.](/website_collection/dreamagri.jpg)  
+![AbhiYantriki](/website_collection/abhiyantriki.jpg)  
+![PMUN](/website_collection/pmun.jpg)  
 
-<img src="/website_collection/gpmun.jpg" alt="Global Peace Conference 2015"><br>
-<img src="/website_collection/innovizion.jpg" alt="Innovizion"><br>
-<img src="/website_collection/khordhamun.jpg" alt="The Khordha Conference"><br>
-<img src="/website_collection/wapaviator.jpg" alt="Wapsite">
+![Global Peace Conference 2015](/website_collection/gpmun.jpg)  
+![Innovizion](/website_collection/innovizion.jpg)  
+![The Khordha Conference](/website_collection/khordhamun.jpg)  
+![Wapsite](/website_collection/wapaviator.jpg)  
 
+Ah, if only I had known about Git back then! Unfortunately, the source code for all these projects was lost when the hosting expired. A valuable lesson learned: always keep backups.
 
-Hope I knew git earlier. Source code of all the above project were lost when hosting expired. Learnt a lesson: 'Always keep backup'.   
-Source code of nihars.in (2012-2016) and nihars.com (2016-2020) is archived in [this repository](https://gitlab.com/niharokz/website_archive).
+You can find the archived source code for nihars.in (2012-2016) and nihars.com (2016-2020) in [this repository](https://gitlab.com/niharokz/website_archive).
 
-There are a few more websites I have worked on. Mostly these are Blogspot / similar platforms.  
-<ul>
-<li><a href="https://techx-code.blogspot.com">techxcode</a> Another blogspot experiment in 2014.</li>
-<li><a href="https://the-computer-wizards.blogspot.com">The Computer Wizards</a> Blogspot based tech blog 2013.</li>
-<li><a href="https://g8write.blogspot.com">g8write</a> Second attempt to blog in 2012.</li>
-<li><a href="https://niharsamantaray.blogspot.com">niharwrite</a> My First blog 2011.</li>
-</ul>
+And that's not all! There are a few more websites I've tinkered with over the years, mostly on platforms like Blogspot. Here's a quick rundown:
+
+- [techxcode](https://techx-code.blogspot.com): Another Blogspot experiment from 2014.
+- [The Computer Wizards](https://the-computer-wizards.blogspot.com): A Blogspot-based tech blog from 2013.
+- [g8write](https://g8write.blogspot.com): My second attempt at blogging in 2012.
+- [niharwrite](https://niharsamantaray.blogspot.com): My very first blog in 2011.
+
+Ah, the memories!

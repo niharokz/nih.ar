@@ -1,34 +1,33 @@
 ---
-title : "Clean home via XDG Base Directory"
+title : "Organizing XDG Base Directory"
 subtitle : "Using XDG Base Directory specification, declutter the home directory"
 showInHome : True
 date : 2021-05-07
 ---
         
-The home path is where most of our command-line life begins. When you are a heavy command-line user, the home path is where most of the terminal defaults to. The home path generally consists of desktop apps, downloads, photos, videos, document directories, and other dot files. With time the home path becomes a mess if you play around with your desktop. As the number of dot files and directories increases, it becomes difficult to use the autocomplete features of different shells. Aesthetically, it also looks cluttery. 
 
-Cleaning this clutter is again a manual task, which you have to perform every now or then. Cleaning this clutter is a cure to the messy problem. But what if we prevent it. That's what I will write about in the below guidelines.
+Ah, the humble home path – where our command-line adventures often kick off. If you're a die-hard terminal dweller like me, you know it's where the heart of your digital life resides. But let's face it, over time, that trusty ol' home path can start to resemble a virtual junk drawer, cluttered with desktop apps, downloads, dot files, and more.
 
-One such way is to use XDG Base Directory specification as written by [freedesktop](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html). These specifications are to specify files, file formats, and config paths.
+Enter the XDG Base Directory specification, courtesy of freedesktop. This nifty set of guidelines offers a solution to our clutter conundrum. Here's a quick rundown of how I keep my digital abode squeaky clean using these specs:
 
-Below is just an overview of how I keep my home clean with XDG Base Directory Specifications. 
 
 ## Basic directory structure
-Initialize the main environmental variables:
+
+First things first, let's set up the main environmental variables:
 
         export XDG_CONFIG_HOME="$HOME/.config"
         export XDG_CACHE_HOME="$HOME/.cache"
         export XDG_DATA_HOME="$HOME/.local/share"
 
-These variables will configure where config, cache, and data are stored. 
-Define these in your RC files (bashrc/zshrc/other shells RC). Or you can also define these as global environmental variables.
+These variables dictate where our config, cache, and data are stored. Pop these babies into your RC files (think bashrc/zshrc/other shells RC), or go big and make them global environmental variables.
 
 ## Reconfigure the paths
-All paths set in these environment variables must be absolute.  Reconfigure the configs inside the ".config" directory.
-i.e. use /.config/zsh/zshrc instead of .zshrc at home path.
 
-## Define application-level xdg configs
-Some of the application's xdg specs I use regularly :
+Now, all paths set in these environment variables need to be absolute. Think of it as giving your configs a new address – instead of .zshrc chilling in your home path, it's now kicking back in /.config/zsh/zshrc.
+
+## Define Application-Level XDG Configs
+
+Here are a few XDG specs I swear by for some of my go-to applications:
 
         export CARGO_HOME="$XDG_DATA_HOME/cargo"
         export XMONAD_CONFIG_HOME="$XDG_CONFIG_HOME/xmonad"
@@ -42,7 +41,11 @@ Some of the application's xdg specs I use regularly :
         export HISTFILE="$XDG_DATA_HOME/bash/history"
         export GNUPGHOME="$XDG_CONFIG_HOME/gnupg"
 
+## Wrapping Up
+
 If you want to check if your application support XDG base specifications, please go through [this arch wiki article](https://wiki.archlinux.org/title/XDG_Base_Directory).
+
+And voilà! With these tweaks in place, my home path is now as tidy as Marie Kondo's sock drawer. So, the next time you peek into your digital dwelling, may you be greeted by a sight as refreshing as a clean slate. 🏠✨
 
 That's all. After doing all above, this is what my home looks like :
 

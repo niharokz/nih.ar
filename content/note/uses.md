@@ -26,4 +26,4 @@ What I use at work on a day to day basis, changes from time to time but I’ll t
 
 ## Subscriptions
 * **Email Service** :   [Zoho Mail](https://go.zoho.com/4r5). I have tried tutanota previously. But Zoho Mail ticks all the boxes I wanted.
-* **Server**    :   [Linode](https://www.linode.com/lp/refer/?r=3ca2cdc5c593c9aee9d47d9a962769cb72485382). This site is hosted here.
+* **Server**: This site is currently hosted by [Contabo](https://contabo.com/). Previously, it was hosted by [Linode](https://www.linode.com/lp/refer/?r=3ca2cdc5c593c9aee9d47d9a962769cb72485382).

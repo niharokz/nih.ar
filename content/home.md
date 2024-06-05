@@ -4,10 +4,10 @@ This site is my small internet home. Here you'll find notes about my tech intere
 
 ## # project
 
-* [Pidgeotto](https://pypi.org/project/pidgeotto/) -- Python based static page generator for web.
-* [Websites](/website_collection.html) -- Collections of website designs, interface, blog sites.
-* [Narch](https://gitlab.org/niharokz/narch) -- Some DIY command line tools to simplify workflow.
-* [Nss](https://gitlab.com/niharokz/nss) -- My personal CSS framework which is use for this site.
+- [Pidgeotto](https://pypi.org/project/pidgeotto/): Python-based static page generator.
+- [Websites](/website_collection.html): Collection of website designs.
+- [Narch](https://gitlab.org/niharokz/narch): DIY command-line tools and apps.
+- [Nss](https://gitlab.com/niharokz/nss): Personal CSS framework.
 
 ## # note
 
