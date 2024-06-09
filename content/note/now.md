@@ -11,7 +11,7 @@ date : 2024-02-25
 - I recently hit the big 3-0 on January 26, 2024.
 - Currently, I'm navigating the fast-paced life in Dubai, with my focus firmly set on work and career growth.
 - I'm employed as a Technical Analyst at [Finacle, Edgeverve](https://www.edgeverve.com/finacle/), where I dabble in all things tech.
-- Ever the automator, I'm constantly finding ways to streamline the mundane with projects like [narch](https://github.com/niharokz/narch).
+- Ever the automator, I'm constantly finding ways to streamline the mundane with projects like [narch](https://gitlab.com/niharokz/narch).
 - When I'm not deep in code, you can find me rocking out to Nirvana's timeless anthem, [Smells Like Teen Spirit](https://www.youtube.com/watch?v=hTWKbfoikeg).
 - I also double as the designer and caretaker of this website, constantly tweaking and updating to keep it fresh.
 - A self-proclaimed anime aficionado, I indulge in some quality [anime](/anime) whenever I can steal a moment.

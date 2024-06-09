@@ -6,8 +6,8 @@ This site is my small internet home. Here you'll find notes about my tech intere
 
 - [Pidgeotto](https://pypi.org/project/pidgeotto/): Python-based static page generator.
 - [Websites](/website_collection.html): Collection of website designs.
-- [Narch](https://gitlab.org/niharokz/narch): DIY command-line tools and apps.
-- [Nss](https://gitlab.com/niharokz/nss): Personal CSS framework.
+- [Narch](https://gitlab.com/niharokz/narch): DIY command-line tools and apps.
+- [Nss](https://gitlab.com/niharokz/nss): Awesome Personal CSS framework.
 
 ## # note
 
