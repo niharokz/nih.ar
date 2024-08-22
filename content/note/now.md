@@ -2,7 +2,7 @@
 title : "what am I doing now"
 subtitle : "now"
 showInHome : False
-date : 2024-08  -21
+date : 2024-08-21
 ---
 
 

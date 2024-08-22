@@ -32,5 +32,5 @@ fav : favicon.ico
 pht : logo.png
 mail : hi@nihars.com
 
-homefooter : '<p># Member of <a href="https://512kb.club/">512kb.club</a>, <a href="https://darktheme.club/">darktheme.club</a>, and <a href="https://namehack.club/">namehack.club</a>.</p>'
+homefooter : '<p># Member of <a href="https://512kb.club/">512kb.club</a>, <a href="https://darktheme.club/">darktheme.club</a>, <a href="https://no-js.club/">no-js.club</a> and <a href="https://namehack.club/">namehack.club</a>.</p>'
 
