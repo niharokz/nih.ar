@@ -51,11 +51,11 @@ Edit the ~/.ssh/config file with the following content:
 
 ## 3. Configuring Repositories and Remotes
 
-* Clone the original repository from GitLab/GitHub/Codeberg to your local machine:
+Clone the original repository from GitLab/GitHub/Codeberg to your local machine:
 
     git clone git@github.com:username/repository_name.git
 
-* Create a remote instance of the same:
+Create a remote instance of the same:
 
     cd repository_name
     git remote set-url origin --add git@gitlab.com:username/repository_name.git

@@ -20,7 +20,7 @@ date : 2024-08-21
 
 ## Past Adventures
 
-- I've called various places home, including [Dubai](https://en.wikipedia.org/wiki/Windhoek),[Dubai](https://en.wikipedia.org/wiki/Windhoek), [Bengaluru](https://en.wikipedia.org/wiki/Bengaluru), and [Mysore](https://en.wikipedia.org/wiki/Mysore). But my roots trace back to the vibrant city of [Bhubaneswar, Odisha](https://en.wikipedia.org/wiki/Bhubaneswar).
+- I've called various places home, including [Dubai](https://en.wikipedia.org/wiki/Dubai),[Windhoek](https://en.wikipedia.org/wiki/Windhoek), [Bengaluru](https://en.wikipedia.org/wiki/Bengaluru), and [Mysore](https://en.wikipedia.org/wiki/Mysore). But my roots trace back to the vibrant city of [Bhubaneswar, Odisha](https://en.wikipedia.org/wiki/Bhubaneswar).
 - In the realm of coding, I cut my teeth on Java, honing my skills and embracing the challenges along the way.
 
 This page draws inspiration from the [nownownow movement](https://nownownow.com/), offering a snapshot of my current journey through life.

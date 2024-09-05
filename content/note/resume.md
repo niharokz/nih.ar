@@ -2,7 +2,7 @@
 title : "nihar's resume"
 subtitle : "nihar's resume"
 showInHome : False
-date : 2023-10-29
+date : 2024-05-09
 ---
             
 ---------------------------------------
@@ -13,7 +13,7 @@ NIHAR SAMANTARAY
 
 nihar@nihars.com | nih.ar | linkedin.com/in/niharsamantaray
 
-**Finacle techno-functional** with 7+ years of experience developing different financial solutions in the banking sector at client locations. Currently, I am associated with Edgeverve Ltd. as a Finacle developer working from the client side.
+**Finacle techno-functional** with 8+ years of experience developing different financial solutions in the banking sector at client locations. Currently, I am associated with Edgeverve Ltd. as a Finacle developer working from the client side.
 
 Skills
 ----
@@ -38,7 +38,12 @@ Skills
 Work Experience
 ----------------
 
-**Technology Analyst - EdgeVerve** (Infosys Product Subsidiary) | Dubai, UAE | Feb 2022 - Present
+**Technical Lead - Msys Technologies** | Bhubaneswar, India | Aug 2024 - Present
+
+Working on Loans.
+
+
+**Technical Analyst - EdgeVerve** (Infosys Product Subsidiary) | Dubai, UAE | Feb 2022 - Jul 2024
 
 I have worked extensively on retail loans and other loan modules. My primary responsibilities include:
 
