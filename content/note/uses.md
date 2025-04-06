@@ -13,7 +13,7 @@ What I use at work on a day to day basis, changes from time to time but I’ll t
 * **Watch** :   Samsung Galaxy Watch 4
 
 ## Laptop Apps
-* **Operating System**  :   Btw I use Arch :) WITH WINDOWS!
+* **Operating System**  :   Btw I useD Arch :) WITH WINDOWS!
 * **Ricing**    :   DWM manager
 * **Terminal**  :   Alacritty and MobaXterm(windows)
 * **Browser**   :   Edge browser! It just works!

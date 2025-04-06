@@ -22,9 +22,9 @@ While you can use the same keys for each Git source, I prefer using different ke
 
 Add the public keys to Codeberg, GitLab, and GitHub:
 
-* Add ~/.ssh/id_rsa_codeberg.pub to GitHub SSH keys.
-* Add ~/.ssh/id_rsa_gitlab.pub to GitLab SSH keys.
-* Add ~/.ssh/id_rsa_github.pub to GitHub SSH keys.
+    Add ~/.ssh/id_rsa_codeberg.pub to Codeberg SSH keys.
+    Add ~/.ssh/id_rsa_gitlab.pub to GitLab SSH keys.
+    Add ~/.ssh/id_rsa_github.pub to GitHub SSH keys.
 
 Register the keys on your local machine:
 

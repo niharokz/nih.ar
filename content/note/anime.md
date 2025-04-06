@@ -2,7 +2,7 @@
 title : "otaku for life"
 subtitle : "Anime Collection"
 showInHome : False 
-date : 2021-07-06
+date : 2025-04-06
 ---
         
 It was the year 2003, and there I was, a wide-eyed 9-year-old, glued to the television screen, entranced by the epic battles unfolding in Dragon Ball Z on Cartoon Network. Little did I know, that was the beginning of a lifelong love affair with anime and manga.
@@ -24,8 +24,10 @@ Over the years, I've delved into countless manga series and immersed myself in t
 * Bleach
 * Fairy Tail
 * Fate/stay night
+* Solo Leveling
+* Dan Da Dan
 
 \# to watch
 
-* Haikyū!!
 * Beelzebub
+* Mob Psycho 100

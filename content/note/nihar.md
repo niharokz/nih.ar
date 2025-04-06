@@ -12,7 +12,7 @@
 #
 ---
 title : "Nihar Samantaray"
-subtitle : "Discover Nihar Samantaray, a passionate tech leader with over 7 years of experience in the financial sector. Explore his journey, insights, and professional expertise at https://nih.ar/nihar."
+subtitle : "Discover Nihar Samantaray, a passionate tech leader with over 9 years of experience in the financial sector. Explore his journey, insights, and professional expertise at https://nih.ar/nihar."
 showInHome : False
 date : 2024-09-05
 ---
