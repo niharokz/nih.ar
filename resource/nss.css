@@ -1,4 +1,4 @@
-:root{--bg:#FFF;--txt:#333;--thm:#357670}
+:root{--bg:#FFF;--txt:#444;--thm:#479e96}
 @media (prefers-color-scheme: dark){:root{--bg:#080C0C;--txt:#C6DFDD;--thm:#42938C}}
 body{background:var(--bg);color:var(--txt);font:1.2em/1.6em sans-serif;max-width:600px;margin:7% auto auto;padding:0 5%}
 h1,h2,h3{font-size:1em}
