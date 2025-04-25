@@ -18,7 +18,7 @@
 <meta property="twitter:description" content="{{ post_subtitle }}" />
 <meta property="twitter:image" content="{{ photo }}" />
 <link rel="shortcut icon" href="{{ config.get('fav') }}" />
-{% if page_name == '404' %}
+{% if post_file == '404.html' %}
   <link rel="stylesheet" type="text/css" media="screen" href="{{ config.get('404css') }}" />
 {% else %}
   <link rel="stylesheet" type="text/css" media="screen" href="{{ config.get('css') }}" />
