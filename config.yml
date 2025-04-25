@@ -28,6 +28,7 @@ footer_md : content/footer.md # Footer content
 site-title : nihar's page on the internet
 desc : Personal webpage of Nihar Samantaray, a banking developer from India who is interested on Open Source projects and linux environment. He also writes technical stuffs.
 css : nss.css
+404css : https://nih.ar/nss.css
 fav : favicon.ico
 pht : logo.png
 mail : hi@nihars.com

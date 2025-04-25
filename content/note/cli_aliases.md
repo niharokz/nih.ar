@@ -1,7 +1,7 @@
 ---
 title : "Speed Up Your CLI with Aliases"
 subtitle : "Streamline your command line experience with these useful Bash aliases. Save time and reduce typing errors with shortcuts for common tasks. Boost your productivity today!"
-showInHome : True
+tags: [note,home]
 date : 2024-06-09
 ---
 

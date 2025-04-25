@@ -1,7 +1,7 @@
 ---
 title : "Back to Basics: Power of DOTADIW"
 subtitle : "As hardware is becoming more capable and acceptable, developers are getting more freedom to add whatever features/bloat they want. As a result, modern-day software is becoming more and more bloated."
-showInHome : True
+tags: [note,home]
 date : 2019-03-26
 ---
 

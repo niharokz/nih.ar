@@ -1,7 +1,7 @@
 ---
 title : "Problem-solving Without Borders"
 subtitle : "The axiom of programming is to solve problems. The motto should be to solve the problem fast and efficiently."
-showInHome : True
+tags: [note,home]
 date : 2020-08-29
 ---
 

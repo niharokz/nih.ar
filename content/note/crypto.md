@@ -1,7 +1,7 @@
 ---
 title : "nihar's crypto addresses"
 subtitle : "nihars crypto store"
-showInHome : False
+tags: [note,general]
 date : 2023-09-16
 ---
 

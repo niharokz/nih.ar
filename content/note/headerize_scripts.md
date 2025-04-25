@@ -1,7 +1,7 @@
 ---
 title : "Headerize Your Bash Scripts"
 subtitle : "Discover how I use a custom Bash script to automatically add and update headers in my shell scripts. Make your code cleaner, track changes easily, and save time with this one-liner CLI tool."
-showInHome : True
+tags: [note,home]
 date : 2025-04-06
 ---
             

@@ -1,7 +1,7 @@
 ---
 title : "Self-Hosting your Gemini Capsule"
 subtitle : "All about Gemini Protocol and Capsule."
-showInHome : True
+tags: [note,home]
 date : 2022-03-23
 ---
 

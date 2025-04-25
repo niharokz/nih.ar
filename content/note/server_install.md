@@ -1,7 +1,7 @@
 ---
 title : "An Automated Server Setup Script"
 subtitle : "Installation of basic server tools in new server: zsh neovim exa zsh-syntax-highlighting zsh-autosuggestions python3-venv python3-pip neofetch git nginx certbot python3-certbot-nginx "
-showInHome : True
+tags: [note,home]
 date : 2024-01-26
 ---
 

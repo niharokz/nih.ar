@@ -2,7 +2,7 @@
 title: "Yesteryears Websites"
 subtitle: "Not a front end developer. But this is something I grew up with. Here is my collection of a few random websites/blogs from yesteryears."
 date: 2017-01-26
-showInHome : False
+tags: [note,general]
 ---
 
 Not being a front-end developer, I might be a fish out of water here. Nevertheless, let me take you on a trip down memory lane with some relics from my past web endeavors.

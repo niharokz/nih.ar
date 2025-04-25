@@ -1,7 +1,7 @@
 ---
 title : "About this website"
 subtitle : "About this website"
-showInHome : False
+tags: [note,general]
 date : 2023-10-28
 ---
 

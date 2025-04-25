@@ -1,7 +1,7 @@
 ---
 title : "what am I doing now"
 subtitle : "now"
-showInHome : False
+tags: [note,general]
 date : 2024-08-21
 ---
 

@@ -1,7 +1,7 @@
 ---
 title : "Arch Linux installation Guide"
 subtitle : "Arch Installation process is the gap between newbie and pro. Any Linux installation without any installer is good way to understand basic linux architecture."
-showInHome : True
+tags: [note,home]
 date : 2023-09-16
 ---
             

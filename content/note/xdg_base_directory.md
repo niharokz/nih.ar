@@ -1,7 +1,7 @@
 ---
 title : "Organizing XDG Base Directory"
 subtitle : "Using XDG Base Directory specification, declutter the home directory"
-showInHome : True
+tags: [note,home]
 date : 2021-05-07
 ---
         

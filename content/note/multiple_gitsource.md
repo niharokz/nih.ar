@@ -1,7 +1,7 @@
 ---
 title : "CLI sync for GitLab, GitHub, Codeberg" 
 subtitle : "use gitlab and github together for same repository on one machine" 
-showInHome : True
+tags: [note,home]
 date : 2021-02-14
 ---
 

@@ -20,7 +20,7 @@
 </header>
 <section>
 {{article}}
-<ul>{% for post in posts %}{% if (post.showInHome is undefined) or post.showInHome %}
+<ul>{% for post in posts %}{% if "home" in post.tags %}
 <li><time>{{ post.date.strftime('%Y-%m-%d') }}</time> -- <a href="{{ post.url[0:-5] }}">{% filter lower %} {{ post.title }} {% endfilter %}</a></li>{% endif %}{% endfor %}
 </ul>
 </section>

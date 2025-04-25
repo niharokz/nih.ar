@@ -1,8 +1,8 @@
 ---
 title : "otaku for life"
 subtitle : "Anime Collection"
-showInHome : False 
-date : 2025-04-06
+tags: [note]
+date : 2025-04-25
 ---
         
 It was the year 2003, and there I was, a wide-eyed 9-year-old, glued to the television screen, entranced by the epic battles unfolding in Dragon Ball Z on Cartoon Network. Little did I know, that was the beginning of a lifelong love affair with anime and manga.

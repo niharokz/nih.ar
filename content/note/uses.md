@@ -1,7 +1,7 @@
 ---
 title : "nihar's - what i use"
 subtitle : "nihar's - what i use"
-showInHome : False
+tags: [general]
 date : 2024-01-25
 ---
             

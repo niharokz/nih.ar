@@ -1,7 +1,7 @@
 ---
 title : "wikipage by nihar"
 subtitle : "This is a collection of notes, pages, links, and other resources."
-showInHome : False
+tags: [note,general]
 date : 2024-01-26
 ---
 

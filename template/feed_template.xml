@@ -18,7 +18,7 @@
    <height>32</height>
   </image>
 
-  {% for post in posts %}{% if (post.showInHome is undefined) or post.showInHome %}
+  {% for post in posts %}{% if "home" in post.tags %}
   <item>
    <title>{{ post.title }}</title>
    <link>{{ config.get('url') }}{{ post.url | replace(".html","") }}</link>

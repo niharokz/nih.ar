@@ -1,7 +1,7 @@
 ---
 title : "Privacy Policy"
 subtitle : "Privacy"
-showInHome : False
+tags: [general]
 date : 2012-09-04
 ---
 

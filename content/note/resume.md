@@ -1,7 +1,7 @@
 ---
 title : "nihar's resume"
 subtitle : "nihar's resume"
-showInHome : False
+tags: [general]
 date : 2024-05-09
 ---
             

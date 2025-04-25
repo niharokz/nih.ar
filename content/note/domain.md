@@ -1,8 +1,8 @@
 ---
 title : "domains that i own"
-subtitle : "Subtitle"
-showInHome : False
-date : 2025-01-26
+subtitle : "domains nihar owns"
+tags: [note,general]
+date : 2025-04-24
 ---
 
 * [nihars.com](https://nihars.com)

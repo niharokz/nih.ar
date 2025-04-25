@@ -1,19 +1,7 @@
-#!/bin/bash
-
-#
-#       ███╗   ██╗██╗██╗  ██╗ █████╗ ██████╗ ███████╗
-#       ████╗  ██║██║██║  ██║██╔══██╗██╔══██╗██╔════╝
-#       ██╔██╗ ██║██║███████║███████║██████╔╝███████╗
-#       ██║╚██╗██║██║██╔══██║██╔══██║██╔══██╗╚════██║
-#       ██║ ╚████║██║██║  ██║██║  ██║██║  ██║███████║
-#       ╚═╝  ╚═══╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
-#       DRAFTED BY [https://nih.ar] ON 05-09-2024.
-#       SOURCE [nihar.md] LAST MODIFIED ON 05-09-2024.
-#
 ---
 title : "Nihar Samantaray"
 subtitle : "Discover Nihar Samantaray, a passionate tech leader with over 9 years of experience in the financial sector. Explore his journey, insights, and professional expertise at https://nih.ar/nihar."
-showInHome : False
+tags: [note,general]
 date : 2024-09-05
 ---
 
