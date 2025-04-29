@@ -148,6 +148,3 @@ I like building tools that do one job well.
 This little script has saved me countless tiny moments — and made my codebase feel more personal and professional.
 
 Feel free to fork it, tweak it, or drop me a line if you improve it.
-
-
-
