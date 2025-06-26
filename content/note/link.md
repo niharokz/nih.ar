@@ -35,15 +35,9 @@ Welcome to my wikipage! Here you'll find a collection of my notes, pages, links,
 
 Use these referral links for services I use, and we both get free stuff!
 
-## Crypto Exchanges:
-💱 **Binance**: [binance.com/en-in/activity/referral-entry/cpa/together?ref=cpa_00si4rf8p1](https://www.binance.com/en-in/activity/referral-entry/cpa/together?ref=cpa_00si4rf8p1)  
-💹 **MEXC Exchange**: [mexc.com/register?invitecode=1if5a](https://www.mexc.com/register?invitecode=1if5a)  
-📈 **KuCoin**: [kucoin.com/r/rf/qbsls54e](https://www.kucoin.com/r/rf/qbsls54e)  
-📉 **Bybit**: [bybit.com/invite?ref=8dkb1a](https://www.bybit.com/invite?ref=8dkb1a)
-
 ## Internet Services:
-🖥️ **Linode**: [linode.com/lp/refer/?r=3ca2cdc5c593c9aee9d47d9a962769cb72485382](https://www.linode.com/lp/refer/?r=3ca2cdc5c593c9aee9d47d9a962769cb72485382)  
-📧 **Tutanota**: [mail.tutanota.com/signup?ref=dnrlykc4axa](https://mail.tutanota.com/signup?ref=dnrlykc4axa)  
-📧 **Zoho**: [go.zoho.com/4r5](https://go.zoho.com/4r5)  
+🖥️ **Linode**: [linode.com/lp/refer/?r=3ca2cdc5c593c9aee9d47d9a962769cb72485382](linode)  
+📧 **Tuta**: [mail.tutanota.com/signup?ref=dnrlykc4axa](tuta)  
+📧 **Zoho**: [go.zoho.com/4r5](zoho)  
 
 Feel free to explore and reach out if you have any questions or suggestions! 
