@@ -36,9 +36,9 @@ meta: '<link rel="stylesheet" href="link.css">'
 <h2>📚 Fun & Projects</h2>
 <section>
   <ul>
-    <li><a href="/anime">📺 Anime I Watch</a></li>
-    <li><a href="/domain">🌐 Domains I Own</a></li>
-    <li><a href="/crypto">💰 Crypto I Hold</a></li>
+    <li><a href="/anime">📺 Anime</a></li>
+    <li><a href="/domain">🌐 Domains</a></li>
+    <li><a href="/crypto">💰 Crypto</a></li>
     <li><a href="/uses">🖥️ My Setup</a></li>
   </ul>
 </section>

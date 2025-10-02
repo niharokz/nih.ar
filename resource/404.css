@@ -13,7 +13,7 @@ pre{border:1px solid var(--txt);padding:1em;overflow-x:auto}
 code{color:var(--thm)}
 pre code{background:none}
 @media(max-width:480px){body{font:1em/1.4em sans-serif}}
-@media (prefers-color-scheme: dark) {body {background-color: rgba(0, 0, 0, 0.9);}}
+@media (prefers-color-scheme: dark) {body {background-color: rgba(4, 10, 10, 0.92);}}
 form[action*="bing.com"] {
   display: flex;
   margin: 2em 0;

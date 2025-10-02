@@ -13,11 +13,12 @@ What I use at work on a day to day basis, changes from time to time but I’ll t
 * **Watch** :   Samsung Galaxy Watch 4
 
 ## Laptop Apps
-* **Operating System**  :   Btw I useD Arch :) WITH WINDOWS!
-* **Ricing**    :   DWM manager
-* **Terminal**  :   Alacritty and MobaXterm(windows)
-* **Browser**   :   Edge browser! It just works!
+* **Operating System**  :   Btw I use Debian :) 
+* **Ricing**    :   DXmonad
+* **Terminal**  :   Alacritty and Kitty
+* **Browser**   :   Vivaldi. Best for Customization 
 * **Editor**    :   Neovim. Notepad++.
+* **MyDotfiles**:   [Debian/Arch supported dotfiles](https://gitlab.com/niharokz/dotfile).
 
 ## Mobile Apps
 * **QuickEdit** :   Notepad of Android. This can be used as note taking app, coding app or even testing app.

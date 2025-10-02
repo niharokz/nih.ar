@@ -14,7 +14,7 @@ I'm a self-taught backend developer and a CLI (Command Line Interface) enthusias
 
 ## What I Do
 
-By day, I am a technical lead at [Msys Technologies](https://www.msystechnologies.com/), where we're shaping the future of modern banking applications. By night, I dive into the world of open-source development. You can check out my collection of projects and contributions on my [GitLab profile](https://gitlab.com/niharokz).
+By day, I am a technical lead at [Aziro Technologies](https://www.aziro.com/), where we're shaping the future of modern banking applications. By night, I dive into the world of open-source development. You can check out my collection of projects and contributions on my [GitLab profile](https://gitlab.com/niharokz).
 
 If you're curious about my professional journey, feel free to explore my [portfolio](/resume), which has more details on the work I’ve done.
 

@@ -38,7 +38,7 @@ Skills
 Work Experience
 ----------------
 
-**Technical Lead - Msys Technologies** | Bhubaneswar, India | Aug 2024 - Present
+**Technical Lead - Aziro Technologies** | Bhubaneswar, India | Aug 2024 - Present
 
 Working on Loans.
 
