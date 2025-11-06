@@ -1,19 +1,815 @@
-:root{--bg:#f8fbff;--txt:#0a1722;--thm:#0891b2}
-@media (prefers-color-scheme: dark){:root{--bg:#0c1116;--txt:#e6f1ff;--thm:#06b6d4}}
-body{background:var(--bg);color:var(--txt);font:1.2em/1.6em sans-serif;max-width:600px;margin:7% auto auto;padding:4%;
-background-color: rgba(255, 255, 255, 0.1);backdrop-filter: blur(12px) saturate(180%);-webkit-backdrop-filter: blur(12px) saturate(180%);
-border-radius: 16px;box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);}
-h1,h2,h3{font-size:1em;}
-a{color:var(--thm);text-decoration:none}
-a:hover{color:var(--bg);background-color:var(--thm);padding: 0.1em}
-header{border-bottom:1px solid var(--txt);padding-bottom:0.5em;margin-bottom:1em}
-header h1{color:var(--thm);font-size:1.2em;display:inline}
-nav{font-weight:bold;display:inline;float: right}
-ul{padding-left:20px;list-style-type:'-- ';line-height:1.4}
-pre{border:1px solid var(--txt);padding:1em;overflow-x:auto}
-code{color:var(--thm)}
-pre code{background:none}
-footer{border-top:1px solid var(--txt);padding-top:0.5em;margin-top:2em;font-size:0.9em;color:var(--txt)}
-footer span{float: right}
-@media(max-width:480px){body{font:1em/1.4em sans-serif}}
-@media (prefers-color-scheme: dark) {body {background-color: var(--bg);box-shadow: 0 8px 32px rgba(255, 255, 255, 0.1);}}
+/* ========================================
+   BRUTALIST CYBER - FINAL POLISHED VERSION
+   Pure Semantic Selectors - NO CLASSES
+   Cyan/Blue/Green Palette
+   ======================================== */
+
+:root {
+    --bg: #fafafa;
+    --surface: #ffffff;
+    --txt: #0a0a0a;
+    --txt-dim: #6b6b6b;
+    --accent: #06b6d4;
+    --accent-2: #3b82f6;
+    --accent-3: #10b981;
+    --border: #e5e5e5;
+    --shadow: rgba(0, 0, 0, 0.06);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: #050505;
+        --surface: #0a0a0a;
+        --txt: #ffffff;
+        --txt-dim: #999999;
+        --accent: #22d3ee;
+        --accent-2: #60a5fa;
+        --accent-3: #34d399;
+        --border: #1a1a1a;
+        --shadow: rgba(255, 255, 255, 0.03);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 0.95rem/1.5 'Berkeley Mono', 'JetBrains Mono', 'SF Mono', monospace;
+    color: var(--txt);
+    background: var(--bg);
+    max-width: 680px;
+    margin: 2% auto;
+    padding: 2rem 1.5rem;
+    position: relative;
+}
+
+/* Glowing border effect */
+body::before {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(45deg, var(--accent), var(--accent-2), var(--accent-3), var(--accent));
+    background-size: 300% 300%;
+    animation: borderGlow 8s ease infinite;
+    border-radius: 2px;
+    z-index: -1;
+    opacity: 0.6;
+    filter: blur(8px);
+}
+
+@keyframes borderGlow {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+/* Inner container */
+body::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-radius: 0;
+    z-index: -1;
+}
+
+/* ========================================
+   Typography
+   ======================================== */
+
+h1, h2, h3 {
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin: 2.5rem 0 0.75rem;
+    position: relative;
+    display: inline-block;
+}
+
+h2::before {
+    content: '//';
+    color: var(--accent);
+    margin-right: 0.5rem;
+    font-weight: 900;
+}
+
+h2::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+    animation: lineGrow 0.4s ease;
+}
+
+@keyframes lineGrow {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+h3 {
+    font-size: 1rem;
+    color: var(--accent-2);
+    margin: 1.5rem 0 0.5rem;
+}
+
+p {
+    margin-bottom: 0.75rem;
+    color: var(--txt-dim);
+    font-size: 0.9rem;
+}
+
+strong {
+    color: var(--txt);
+    font-weight: 700;
+}
+
+time {
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: var(--txt-dim);
+    background: var(--border);
+    padding: 0.2rem 0.4rem;
+    border-left: 3px solid var(--accent);
+    white-space: nowrap;
+}
+
+hr {
+    display: none;
+}
+
+/* ========================================
+   Links
+   ======================================== */
+
+a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a:hover {
+    color: var(--accent-2);
+}
+
+a:hover::after {
+    width: 100%;
+    background: var(--accent-2);
+}
+
+/* ========================================
+   Header
+   ======================================== */
+
+header {
+    border-bottom: 3px solid var(--border);
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: var(--accent);
+    animation: headerSlide 0.6s ease;
+}
+
+@keyframes headerSlide {
+    from { width: 0; }
+    to { width: 60px; }
+}
+
+header h1 {
+    line-height: 1.2;
+}
+
+header h1 a {
+    background: linear-gradient(135deg, var(--accent), var(--accent-2), var(--accent-3));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 200%;
+    animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+header h1 a::after {
+    display: none;
+}
+
+header nav {
+    display: flex;
+    gap: 0.25rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header nav a {
+    color: var(--txt-dim);
+    padding: 0.4rem 0.7rem;
+    background: transparent;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    line-height: 1;
+    display: inline-block;
+}
+
+header nav a::after {
+    display: none;
+}
+
+header nav a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: transparent;
+    transform: translateY(-2px);
+}
+
+/* ========================================
+   Article
+   ======================================== */
+
+article > h1:first-child {
+    font-size: 2rem;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+article > p:first-of-type,
+article > h1 + p {
+    font-size: 1rem;
+    color: var(--txt);
+    font-weight: 400;
+}
+
+article > p:last-of-type {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 2px solid var(--border);
+    font-size: 0.8rem;
+    color: var(--txt-dim);
+}
+
+/* ========================================
+   Sections
+   ======================================== */
+
+section {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+section:hover {
+    transform: translateX(2px);
+    transition: transform 0.2s ease;
+}
+
+/* ========================================
+   Lists - Single Line Layout
+   ======================================== */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: all 0.2s ease;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li:hover {
+    padding-left: 0.5rem;
+    border-left: 3px solid var(--accent);
+    background: linear-gradient(90deg, var(--shadow), transparent);
+}
+
+ul li::before {
+    content: '>';
+    color: var(--accent);
+    font-weight: 900;
+    font-size: 1rem;
+    min-width: 1rem;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+}
+
+ul li:hover::before {
+    transform: translateX(3px);
+    color: var(--accent-2);
+}
+
+/* Article lists */
+article ul li {
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    border: none;
+    position: relative;
+}
+
+article ul li::before {
+    position: absolute;
+    left: 0;
+    font-size: 0.9rem;
+}
+
+/* Notes with time - SINGLE LINE */
+section:has(time) ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+section:has(time) ul li::before {
+    display: none;
+}
+
+section:has(time) ul li:hover {
+    border-left: none;
+    padding-left: 0;
+}
+
+section:has(time) time {
+    flex-shrink: 0;
+    order: -1;
+}
+
+section:has(time) a {
+    flex: 1;
+}
+
+/* ========================================
+   Link Grid - NO ARROW SYMBOL
+   ======================================== */
+
+body:has(article section ul li a[href^="mailto"]) section,
+body:has(article section ul li a[href*="github"]) section,
+body:has(article section ul li a[href*="gitlab"]) section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
+    margin: 1rem 0;
+}
+
+body:has(article section ul li a[href^="mailto"]) section ul,
+body:has(article section ul li a[href*="github"]) section ul {
+    all: unset;
+    display: contents;
+}
+
+body:has(article section ul li a[href^="mailto"]) section li,
+body:has(article section ul li a[href*="github"]) section li {
+    all: unset;
+    display: block;
+}
+
+/* FIXED: Removed arrow, clean box design */
+body:has(article section ul li a[href^="mailto"]) section li::before,
+body:has(article section ul li a[href*="github"]) section li::before {
+    display: none;
+}
+
+body:has(article section ul li a[href^="mailto"]) section a,
+body:has(article section ul li a[href*="github"]) section a {
+    display: block;
+    padding: 0.75rem 0.5rem;
+    border: 2px solid var(--border);
+    text-align: center;
+    font-weight: 700;
+    font-size: 0.85rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    background: var(--surface);
+    position: relative;
+}
+
+body:has(article section ul li a[href^="mailto"]) section a:hover,
+body:has(article section ul li a[href*="github"]) section a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--surface);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px var(--shadow),
+                inset 0 0 0 1px var(--accent);
+}
+
+body:has(article section ul li a[href^="mailto"]) section a::after,
+body:has(article section ul li a[href*="github"]) section a::after {
+    display: none;
+}
+
+/* ========================================
+   Code
+   ======================================== */
+
+code {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.85em;
+    background: var(--border);
+    color: var(--accent-2);
+    padding: 0.2em 0.4em;
+    border-left: 3px solid var(--accent);
+    font-weight: 600;
+}
+
+pre {
+    background: var(--surface);
+    border: 2px solid var(--border);
+    border-left: 4px solid var(--accent);
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+    position: relative;
+    box-shadow: 0 4px 12px var(--shadow);
+    font-size: 0.85rem;
+}
+
+pre code {
+    background: none;
+    border: none;
+    padding: 0;
+    color: var(--txt);
+}
+
+pre:hover {
+    border-left-color: var(--accent-2);
+    transform: translateX(2px);
+}
+
+/* ========================================
+   Footer - FIXED FOR SMALL SCREENS
+   ======================================== */
+
+footer {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 3px solid var(--border);
+    font-size: 0.8rem;
+    position: relative;
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+
+footer p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+footer nav {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: var(--txt-dim);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+footer a:hover {
+    color: var(--accent);
+}
+
+footer span {
+    color: var(--txt-dim);
+    white-space: nowrap;
+}
+
+/* ========================================
+   Membership Section
+   ======================================== */
+
+section:last-of-type {
+    background: linear-gradient(135deg, var(--shadow), transparent);
+    border-left: 4px solid var(--accent);
+    padding: 1rem;
+    margin-top: 2.5rem;
+}
+
+section:last-of-type p {
+    margin: 0;
+    font-size: 0.85rem;
+}
+
+/* ========================================
+   Mobile Responsive
+   ======================================== */
+
+@media (max-width: 640px) {
+    body {
+        padding: 1.5rem 1rem;
+        margin: 1% auto;
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+        margin: 2rem 0 0.5rem;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        padding-bottom: 0.75rem;
+    }
+
+    header nav {
+        width: 100%;
+        gap: 0.25rem;
+    }
+
+    header nav a {
+        padding: 0.35rem 0.6rem;
+        font-size: 0.75rem;
+    }
+
+    article > h1:first-child {
+        font-size: 1.6rem;
+    }
+
+    body:has(article section ul li a[href^="mailto"]) section,
+    body:has(article section ul li a[href*="github"]) section {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 0.6rem;
+    }
+
+    body:has(article section ul li a[href^="mailto"]) section a,
+    body:has(article section ul li a[href*="github"]) section a {
+        padding: 0.65rem 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    section:has(time) ul li {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    section:has(time) time {
+        font-size: 0.7rem;
+        padding: 0.15rem 0.3rem;
+    }
+
+    /* FIXED: Footer stays compact on small screens */
+    footer {
+        margin-top: 2.5rem;
+        padding-top: 1rem;
+        font-size: 0.75rem;
+    }
+
+    footer p {
+        gap: 0.5rem;
+    }
+
+    footer nav {
+        gap: 0.4rem;
+    }
+
+    footer a {
+        font-size: 0.75rem;
+    }
+
+    footer span {
+        font-size: 0.75rem;
+    }
+
+    section:last-of-type {
+        padding: 0.75rem;
+    }
+
+    pre {
+        padding: 0.75rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 1.25rem 0.75rem;
+        font-size: 0.85rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    header nav a {
+        padding: 0.3rem 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    body:has(article section ul li a[href^="mailto"]) section,
+    body:has(article section ul li a[href*="github"]) section {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 0.5rem;
+    }
+
+    ul li {
+        padding: 0.5rem 0;
+        gap: 0.5rem;
+    }
+
+    /* FIXED: Even more compact footer on very small screens */
+    footer {
+        font-size: 0.7rem;
+    }
+
+    footer a {
+        font-size: 0.7rem;
+    }
+
+    footer span {
+        font-size: 0.7rem;
+    }
+}
+
+/* ========================================
+   Accessibility & Performance
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+a:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+}
+
+::selection {
+    background: var(--accent);
+    color: var(--surface);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+header,
+section,
+footer {
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+
+/* ========================================
+   Search Form Styling
+   ======================================== */
+
+form[action*="bing.com"] {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+form[action*="bing.com"] input[type="text"] {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.5rem;
+    border: 2px solid var(--border);
+    background: var(--surface);
+    color: var(--txt);
+    font-family: inherit;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+form[action*="bing.com"] input[type="text"]:focus {
+    border-color: var(--accent);
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(34, 211, 238, 0.1);
+}
+
+form[action*="bing.com"] input[type="submit"] {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--accent);
+    background: var(--surface);
+    color: var(--accent);
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.85rem;
+}
+
+form[action*="bing.com"] input[type="submit"]:hover {
+    background: var(--accent);
+    color: var(--surface);
+    transform: translateY(-2px);
+}
+
+/* Mobile responsiveness for search form */
+@media (max-width: 640px) {
+    form[action*="bing.com"] {
+        gap: 0.4rem;
+    }
+    
+    form[action*="bing.com"] input[type="text"] {
+        min-width: 150px;
+        padding: 0.45rem;
+        font-size: 0.85rem;
+    }
+    
+    form[action*="bing.com"] input[type="submit"] {
+        padding: 0.45rem 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    form[action*="bing.com"] {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    form[action*="bing.com"] input[type="text"] {
+        min-width: unset;
+    }
+}
+
