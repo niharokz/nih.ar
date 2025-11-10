@@ -3,7 +3,6 @@ title : "Nihar's Personal Wiki"
 subtitle : "This is a collection of notes, pages, links, and other resources."
 tags: [note,general]
 date : 2025-06-27
-meta: '<link rel="stylesheet" href="link.css">'
 ---
 
 <p>Welcome to my wikipage! Here you'll find a collection of my notes, pages, links, and other resources.</p>
