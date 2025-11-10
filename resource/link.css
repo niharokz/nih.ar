@@ -1,3 +1,0 @@
- section {display: grid;grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));gap: 1em;margin-top: 1.5em;margin-bottom: 1.5em;}
- ul {all: unset;display: contents;}
- li {all: unset;display: block;}
