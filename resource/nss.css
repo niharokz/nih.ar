@@ -920,7 +920,7 @@ section:last-of-type a {
 
 @media (max-width: 640px) {
     body {
-        padding: 4.5rem var(--space-lg) var(--space-xl);
+        padding: 5.5rem var(--space-lg) var(--space-xl);
         font-size: clamp(0.9375rem, 3vw, 1.0625rem);
     }
 
@@ -1074,7 +1074,7 @@ section:last-of-type a {
 
 @media (max-width: 480px) {
     body {
-        padding: 4.5rem 0.875rem 1.25rem;
+        padding: 5rem 0.875rem 1.25rem;
         font-size: clamp(0.875rem, 3.5vw, 1rem);
     }
 
