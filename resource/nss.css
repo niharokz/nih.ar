@@ -920,7 +920,7 @@ section:last-of-type a {
 
 @media (max-width: 640px) {
     body {
-        padding: var(--space-xl) var(--space-lg);
+        padding: 4.5rem var(--space-lg) var(--space-xl);
         font-size: clamp(0.9375rem, 3vw, 1.0625rem);
     }
 
@@ -943,21 +943,32 @@ section:last-of-type a {
     }
 
     header {
-        margin-bottom: 1.75rem;
-        padding-bottom: 0.875rem;
-        gap: var(--space-lg);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin-bottom: 0;
+        padding: var(--space-md) var(--space-lg);
+        gap: var(--space-md);
+        background: var(--bg);
+        border-bottom: 1px solid var(--border);
+        z-index: 1000;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: var(--shadow-sm);
     }
 
     header h1 {
         font-size: 1.5rem;
-        width: 100%;
+        width: auto;
+        text-align: center;
     }
 
     header nav {
-        width: 100%;
+        width: auto;
         font-size: 0.8125rem;
         gap: var(--space-xs);
-        justify-content: flex-start;
+        justify-content: center;
     }
 
     header nav a {
@@ -1017,24 +1028,28 @@ section:last-of-type a {
         margin-top: var(--space-3xl);
         padding-top: 1.25rem;
         font-size: 0.875rem;
+        text-align: center;
     }
 
     footer p {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
         gap: var(--space-md);
     }
 
     footer nav {
         display: flex;
         gap: 0.625rem;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
     }
 
     footer a {
         font-size: 0.8125rem;
+        white-space: nowrap;
     }
 
     footer span {
@@ -1059,7 +1074,7 @@ section:last-of-type a {
 
 @media (max-width: 480px) {
     body {
-        padding: 1.25rem 0.875rem;
+        padding: 4.5rem 0.875rem 1.25rem;
         font-size: clamp(0.875rem, 3.5vw, 1rem);
     }
 
@@ -1077,7 +1092,7 @@ section:last-of-type a {
     }
 
     header {
-        margin-bottom: var(--space-xl);
+        padding: var(--space-sm) var(--space-md);
     }
 
     header h1 {
@@ -1131,24 +1146,28 @@ section:last-of-type a {
     footer {
         margin-top: var(--space-2xl);
         font-size: 0.8125rem;
+        text-align: center;
     }
 
     footer p {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
         gap: var(--space-sm);
     }
 
     footer nav {
         display: flex;
         gap: var(--space-sm);
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
     }
 
     footer a {
         font-size: 0.75rem;
+        white-space: nowrap;
     }
 
     footer span {
