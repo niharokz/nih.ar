@@ -8,6 +8,7 @@ This site is my small internet home. Here you'll find notes about my tech intere
 - [Websites](/website_collection.html): Collection of website designs.
 - [Narch](https://gitlab.com/niharokz/narch): DIY command-line tools and apps.
 - [Nss](https://gitlab.com/niharokz/nss): Awesome Personal CSS framework.
+- [Arthik](https://arthik.nihars.com): Ledger Personal Finance tracker.
 
 ## # note
 
