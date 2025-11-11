@@ -1,9 +1,12 @@
 image: python:3.13
+
 before_script:
   - pip install rynz
+
 pages:
   script:
     - rynz deploy
+    - curl -o public/nss.css https://cdn.jsdelivr.net/gh/niharokz/nss/nss.min.css
   artifacts:
     paths:
       - public

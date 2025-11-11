@@ -2,7 +2,7 @@
 title : "what am I doing now"
 subtitle : "now"
 tags: [note,general]
-date : 2025-10-02
+date : 2025-11-11
 ---
 
 
