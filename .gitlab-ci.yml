@@ -6,7 +6,7 @@ before_script:
 pages:
   script:
     - rynz deploy
-    - curl -o public/nss.css https://cdn.jsdelivr.net/gh/niharokz/nss/nss.min.css
+    - curl -o public/nss.css https://cdn.statically.io/gl/niharokz/nss/main/nss.min.css
   artifacts:
     paths:
       - public
