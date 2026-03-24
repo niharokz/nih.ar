@@ -1,5 +1,5 @@
 ---
-title : "what am I doing now"
+title : "nihar's now"
 subtitle : "now"
 tags: [note,general]
 date : 2025-11-11

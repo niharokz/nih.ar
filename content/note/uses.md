@@ -2,28 +2,28 @@
 title : "nihar's - what i use"
 subtitle : "nihar's - what i use"
 tags: [general]
-date : 2024-01-25
+date : 2026-03-24
 ---
             
 What I use at work on a day to day basis, changes from time to time but I’ll try to keep this up to date.
 
 ## Hardware
-* **Laptop**    :   Lenovo Ideapad 5. 16GB of ram with i5 processor is overkill.
-* **Phone** :   Samsung Galaxy S22 Ultra
+* **Laptop**    :   Lenovo Ideapad 5 + Dell Optiplex mini. 
+* **Phone** :   Realme P3 Pro
 * **Watch** :   Samsung Galaxy Watch 4
 
 ## Laptop Apps
-* **Operating System**  :   Btw I use Debian :) with Windows
-* **Ricing**    :   DXmonad
-* **Terminal**  :   Alacritty and Kitty
-* **Browser**   :   Vivaldi. Best for Customization 
+* **Operating System**  :   Debian + Windows
+* **Ricing**    :   Xmonad + DWM
+* **Terminal**  :   Kitty + Alacritty
+* **Browser**   :   Microsoft Edge.
 * **Editor**    :   Neovim. Notepad++.
 * **MyDotfiles**:   [Debian/Arch supported dotfiles](https://gitlab.com/niharokz/dotfile).
 
 ## Mobile Apps
-* **QuickEdit** :   Notepad of Android. This can be used as note taking app, coding app or even testing app.
-* **NewPipe**   :   Its youtube without youtube.
-* **Browser**   :   Brave browser. It's fast!
+* **Obsidian** :   Notepad of everything. This can be used as note taking app, coding app or even testing app.
+* **Nextcloud**   :   Personal Cloud storage.
+* **Browser**   :   Microsoft Edge!
 
 ## Subscriptions
 * **Email Service** :   [Zoho Mail](https://go.zoho.com/4r5). I have tried tutanota previously. But Zoho Mail ticks all the boxes I wanted.

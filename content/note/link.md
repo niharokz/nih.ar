@@ -1,8 +1,8 @@
 ---
-title : "Nihar's Personal Wiki"
+title : "nihar's wiki"
 subtitle : "This is a collection of notes, pages, links, and other resources."
 tags: [note,general]
-date : 2025-06-27
+date : 2026-03-24
 ---
 
 <p>Welcome to my wikipage! Here you'll find a collection of my notes, pages, links, and other resources.</p>
@@ -42,12 +42,4 @@ date : 2025-06-27
   </ul>
 </section>
 <hr />
-<h2>Internet Services</h2>
-<section>
-  <ul>
-    <li><a href="linode">🖥️ Linode</a></li>
-    <li><a href="tuta">📧 Tutanota</a></li>
-    <li><a href="zoho">📧 Zoho</a></li>
-  </ul>
-</section>
 <p>Feel free to explore and reach out if you have any questions or suggestions!</p>

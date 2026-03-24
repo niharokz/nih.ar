@@ -2,7 +2,7 @@
 title : "nihar's resume"
 subtitle : "nihar's resume"
 tags: [general]
-date : 2024-05-09
+date : 2026-03-09
 ---
             
 ---------------------------------------
@@ -17,6 +17,9 @@ nihar@nihars.com | nih.ar | linkedin.com/in/niharsamantaray
 
 Skills
 ----
+
+<section>
+
 * Retail Loans, Core banking
 * PL/SQL RDBMS DB
 * Shell and Finacle scripting
@@ -34,6 +37,8 @@ Skills
 * Jira and tracking
 * Python Programming
 * JBOSS and Nginx
+
+</section>
 
 Work Experience
 ----------------
