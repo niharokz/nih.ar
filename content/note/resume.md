@@ -2,101 +2,121 @@
 title : "nihar's resume"
 subtitle : "nihar's resume"
 tags: [general]
-date : 2026-03-09
+date : 2026-03-24
 ---
-            
----------------------------------------
 
+---------------------------------------
 
 NIHAR SAMANTARAY
 ================
 
 nihar@nihars.com | nih.ar | linkedin.com/in/niharsamantaray
 
-**Finacle techno-functional** with 8+ years of experience developing different financial solutions in the banking sector at client locations. Currently, I am associated with Edgeverve Ltd. as a Finacle developer working from the client side.
+**Finacle Techno-Functional Lead** with 8+ years of experience in delivering scalable banking solutions across multiple geographies. Expertise in retail loans, system design, DevOps practices, and performance optimization. Experienced in leading teams, architecting solutions, and improving system reliability in production environments.
 
-Skills
+---
+
+### Skills
 ----
 
-<section>
+**Banking & Domain**
+- Retail Loans, Core Banking, Financial Accounting
+- Finacle 10x/11x (Menus, APIs, Customization, EOD/BOD)
 
-* Retail Loans, Core banking
-* PL/SQL RDBMS DB
-* Shell and Finacle scripting
-* Linux and Unix Servers
-* GIT, SVN, JIRA and UNIX
-* API, XSD Development
-* Menus customization
-* Finacle EOD-BOD & Batch
-* Jasper and MRT Reports
-* Command line Apps
-* Excel with VBScript
-* Putty and MobaXterm
-* Scripting Automation
-* FSDP and FINUXIDE
-* Jira and tracking
-* Python Programming
-* JBOSS and Nginx
+**Technical**
+- PL/SQL, RDBMS
+- Shell Scripting, Python
+- API Development, XSD/WSDL
+- Linux / Unix Systems
 
-</section>
+**DevOps & Infra**
+- Deployment automation and environment management
+- Monitoring: Kibana, Grafana
+- Nginx, JBoss
+- Log analysis & performance tuning
 
-Work Experience
+**Tools**
+- Git, SVN, Jira
+- Putty, MobaXterm
+- Excel VBScript automation
+
+---
+
+### Work Experience
 ----------------
 
-**Technical Lead - Aziro Technologies** | Bhubaneswar, India | Aug 2024 - Present
+#### **Technical Lead - Aziro Technologies**  
+*Bhubaneswar, India | Aug 2024 - Present*
 
-Working on Loans.
+- Leading development of loan modules and coordinating delivery across team members.
+- Managing a small team, handling task planning, reviews, and technical guidance.
+- Designing solution flows from business requirements to implementation.
+- Contributing to DevOps practices, deployments, and production stability.
+- Built monitoring dashboards using **Kibana and Grafana** to improve system visibility and issue tracking.
+- Worked on improving performance, stability, and observability of applications.
 
+---
 
-**Technical Analyst - EdgeVerve** (Infosys Product Subsidiary) | Dubai, UAE | Feb 2022 - Jul 2024
+#### **Technical Analyst - EdgeVerve (Infosys Product Subsidiary)**  
+*Dubai, UAE | Feb 2022 - Jul 2024*
 
-I have worked extensively on retail loans and other loan modules. My primary responsibilities include:
+- Owned end-to-end lifecycle of retail loan implementations including requirement analysis, development, and production support.
+- Designed and implemented solutions aligning business needs with system capabilities.
+- Developed APIs, batch jobs, procedures, and reports across multiple modules.
+- Worked on performance improvements and optimization of batch and database operations.
+- Delivered enhancements across loans, APIs, statements, and reporting systems.
+- Supported post-go-live activities and handled production issues.
 
-* Responsible for the complete life cycle of the retail loans project. I was involved in the requirement gathering phase to post-live support.
-* Integrating business requirements, feasibility, and solutions the same.
-Configuration and maintenance of parameters and patches.
-* Experienced in developing, debugging, and testing API, batches, procedures, reports, and product/custom menus.
-* Knowledge of loan-related menus and functionalities. Have a good understanding of financial accounting.
-* Worked on improving API performance, optimization of batch and procedure timings, improved code quality, and existing workflows.
-* Done enhancement of various domains like loans, statements, batch jobs, API, and reports in 11x. Currently, I am working on PGL change requests and post-go-live support.
+---
 
+#### **Senior Systems Engineer - EdgeVerve**  
+*Windhoek, Namibia | Feb 2019 - Feb 2022*
 
-**Senior Systems Engineer - EdgeVerve** | Windhoek, Namibia | Feb 2019 - Feb 2022 
+- Contributed to modernization of payment systems including migration to PAIN-based processing.
+- Developed Finacle modules, APIs, and reporting solutions.
+- Improved system throughput significantly through performance tuning and query optimization.
+- Standardized API validation and integration approaches across systems.
+- Built automation tools to streamline operations and reduce manual effort.
 
-I have worked on the development, implementation, and support of a new payment system for a client. Below are my responsibilities for completing the deployment of the project:
+---
 
-* Responsible for the development of the PAIN payment system. I have also worked on migrating from ACH payment to the PAIN payment system.
-* Development of Finacle 10x menus, Jasper reports, and API handlers. Developed XML to CSV and vice versa converter Excel and VBScript.
-* Enhancement of scripts and SQL that helped in achieving 60 TPS (transaction per second) from 2 TPS at the initial phase of the project.
-* Customization of product API, validation and maintaining uniformity 
-across all custom APIs for multiple peripherals.
-   
-**Systems Engineer - EdgeVerve** | Bangalore, India | Dec 2016 - Jan 2019
+#### **Systems Engineer - EdgeVerve**  
+*Bangalore, India | Dec 2016 - Jan 2019*
 
-I have parallelly worked on multiple short-term projects. Infra and reports were my responsibilities.
+- Developed Finacle frontend menus and reporting interfaces.
+- Built command-line tools for operational automation (user management, patch deployment, service control).
+- Automated log tracing and debugging workflows.
+- Supported infrastructure setup, patching, and application server configuration.
 
-* Have worked extensively on reports and PL/SQL. I was involved in the development of Finacle 11x Frontend Menus using Java and JavaScript to display reports.
-* Debugging and fixing infra-related issues. Patch creation. Finacle installation. Jboss and WAS installation.
-* Created command line apps like "automation of was restart",  "user creation/reset", "free port finder", and "multiple patch deployment in single instance".
-* Automated the tracing of logs which were failing due to unknown reasons. XML extraction from debug log files.
-   
-**Systems Engineer - Infosys** | Mysore, India | Jun 2016 - Nov 2016
+---
 
-I was trained in basics of OOPS and DS programming with UX design to create a replica of an eCommerce website.
+#### **Systems Engineer - Infosys**  
+*Mysore, India | Jun 2016 - Nov 2016*
 
-Technical and Functional Skills
+- Trained in object-oriented programming, data structures, and UX fundamentals.
+- Developed a prototype eCommerce application.
+
+---
+
+### Technical & Functional Expertise
 ----------------
-* Shell scripting, Python scripting, Javascript debugging. 
-* Sound knowledge of relational database that uses PL/SQL procedure, functions, and complex queries.
-* Well aware of Linux and some Unix-based servers and their utilities.  
-* Version controlling using git/svn and defect tracking with Jira.  
-* Scripting automation, command-line apps, APIs XSD/WSDL validating, VBScript Excel to xml generators.  
-* Functionally well versed with loans in core banking terms. Have basic knowledge of ACH payments.
 
-Education and Projects
+- Strong experience in PL/SQL programming, procedures, and query optimization.
+- Hands-on experience in Finacle customization, APIs, and batch processing.
+- Exposure to DevOps practices including deployment and monitoring.
+- Proficient in Linux systems, debugging, and troubleshooting.
+- Experience in automation scripting and internal tool development.
+- Functional understanding of loans and payment systems.
+
+---
+
+### Education & Projects
 ----------------
-* B.Tech. degree in Computer Science Engineering (2012-2016) from BPUT.  
-* Python program to consume currency feeds and display the graph as a command-line app.
+
+- **B.Tech in Computer Science Engineering (2012–2016)** — BPUT
+
+**Projects**
+- Python-based CLI tool to consume currency feeds and visualize trends.
 
 ---------------------------------------
 
