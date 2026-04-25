@@ -2,7 +2,7 @@
 title: "nimory: My Internet at Home"
 subtitle: "nihar's internet microcloud operating runtime yottabyte"
 date: 2026-04-25
-tags: [note,generic]
+tags: [home,note,generic]
 ---
 
 nimory is my personal homelab. A single machine running everything I need — file storage, photos, notes, syncing, and a local AI stack. No subscriptions. No third-party dependency for the things that matter.
