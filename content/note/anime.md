@@ -2,7 +2,7 @@
 title : "otaku for life"
 subtitle : "Anime Collection"
 tags: [note]
-date : 2025-10-02
+date : 2026-04-26
 ---
         
 It was the year 2003, and there I was, a wide-eyed 9-year-old, glued to the television screen, entranced by the epic battles unfolding in Dragon Ball Z on Cartoon Network. Little did I know, that was the beginning of a lifelong love affair with anime and manga.
@@ -27,8 +27,9 @@ Over the years, I've delved into countless manga series and immersed myself in t
 * Dan Da Dan
 * Demon Slayer
 * Takopi's Original Sin
+* Jujutsu Kaisen
+* Chainsaw Man
 
 \# to watch
 
 * Mob Psycho 100
-* Boku no Hīrō Akademia

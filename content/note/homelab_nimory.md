@@ -1,11 +1,11 @@
 ---
 title: "nimory: My Internet at Home"
 subtitle: "nihar's internet microcloud operating runtime yottabyte"
-date: 2026-04-25
+date: 2026-04-26
 tags: [home,note,generic]
 ---
 
-nimory is a single machine running everything I need — files, photos, notes, sync, and local AI.
+(nimory)[http://home.nihars.com] is a single machine running everything I need — files, photos, notes, sync, and local AI.
 No subscriptions. No third-party dependency for the things that matter.
 
 This is a write-up of how it's built and how it works.
