@@ -1,7 +1,7 @@
 ---
 title: "nimory: My Internet at Home"
 subtitle: "nihar's internet microcloud operating runtime yottabyte"
-date: 2026-04-26
+date: 2026-05-13
 tags: [home,note,generic]
 ---
 
@@ -10,7 +10,11 @@ No subscriptions. No third-party dependency for the things that matter.
 
 This is a write-up of how it's built and how it works.
 
-![NIMORY](/assets/nimory.webp)
+<picture>
+  <source srcset="nimory_arch_dark.webp" media="(prefers-color-scheme: dark)">
+  <img src="nimory_arch_light.webp" alt="nimory architecture">
+</picture>
+
 ---
 
 ## Hardware 🖥️
