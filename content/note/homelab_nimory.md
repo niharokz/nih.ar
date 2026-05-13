@@ -11,8 +11,8 @@ No subscriptions. No third-party dependency for the things that matter.
 This is a write-up of how it's built and how it works.
 
 <picture>
-  <source srcset="nimory_arch_dark.webp" media="(prefers-color-scheme: dark)">
-  <img src="nimory_arch_light.webp" alt="nimory architecture">
+  <source srcset="/assets/nimory_arch_dark.webp" media="(prefers-color-scheme: dark)">
+  <img src="/assets/nimory_arch_light.webp" alt="nimory architecture">
 </picture>
 
 ---
