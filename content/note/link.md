@@ -29,6 +29,7 @@ date : 2026-03-24
     <li><a href="/resume">📄 Resume</a></li>
     <li><a href="/colophon">🛠️ Colophon</a></li>
     <li><a href="https://home.nihars.com">🏠 Homelab</a></li>
+    <li><a href="/friends">😎Friends</a></li>
   </ul>
 </section>
 <hr />
