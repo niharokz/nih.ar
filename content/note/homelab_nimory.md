@@ -1,11 +1,11 @@
 ---
 title: "nimory: My Internet at Home"
 subtitle: "nihar's internet microcloud operating runtime yottabyte"
-date: 2026-05-13
+date: 2026-10-03
 tags: [home,note,generic]
 ---
 
-[nimory](https://home.nihars.com) is a single machine running everything I need — files, photos, notes, sync, and local AI.
+[nimory](https://home.nihars.com) is a single machine running everything I need — files, photos, notes, sync, automation, and local AI.
 No subscriptions. No third-party dependency for the things that matter.
 
 This is a write-up of how it's built and how it works.
@@ -19,7 +19,7 @@ This is a write-up of how it's built and how it works.
 
 ## Hardware 🖥️
 
-A Dell OptiPlex 7060. Small form factor, low power, silent enough to ignore.
+A Dell OptiPlex 7060 Micro. Small form factor, low power, silent enough to ignore.
 
 * Hostname : nimory
 * OS       : Debian 12 (Bookworm)
@@ -104,7 +104,11 @@ Security headers:
 * sync.nihars.com → Syncthing
 * home.nihars.com → Dashboard
 * notes.nihars.com → Samanote
-* nimos.nihars.com → AI UI
+* postgres.nihars.com → Adminer (Postgres admin)
+* data.nihars.com → Natlas
+* health.nihars.com → static health site (generated nightly)
+* arthik.nihars.com → static site
+* demoarthik.nihars.com → Arthik demo
 
 ### LAN Domains
 
@@ -113,7 +117,8 @@ Security headers:
 * sync.nimory → Syncthing
 * home.nimory → Dashboard
 * notes.nimory → Samanote
-* nimos.nimory → AI UI
+* postgres.nimory → Adminer
+* data.nimory → Natlas
 * dns.nimory → AdGuard
 
 ---
@@ -134,32 +139,62 @@ Each service runs in isolation and communicates over a shared internal network.
 
 ### Infrastructure
 
-* postgres → shared database
+* postgres (pgvector) → shared database
+* postgresweb → Postgres admin UI (Adminer)
 * redis → cache + queues
 
 ### Files + Sync
 
-* nextcloud → file storage
-* syncthing → folder sync
+* nextcloud → file storage (rarely used day-to-day)
+* syncthing → folder sync (notes, documents, music)
 
 ### Photos (Immich)
 
 * immich_server → API + UI
 * immich_worker → background jobs
-* immich_ml → ML processing
+* immich_ml → ML processing (face detection, etc.)
 
-### AI Stack (Nimos)
+### AI Runtime
 
-* nimos_ollama → model runtime
-* nimos_webui → chat UI
-* nimos → backend
+* ollama → local model runtime
+* nimo → chat backend (used internally, e.g. by the nightly briefing)
+* telegrambot → "Nimo," the Telegram-facing persona
 
-Everything runs locally. No external API calls.
+Each talks to Ollama independently — there's no shared AI gateway, just one local
+runtime backing two different front doors. Everything runs locally. No external API calls
+unless I've explicitly enabled an online fallback.
 
 ### Apps
 
+* natlas → personal data manager (events, subscriptions, inventory, health, birthdays)
+* taskmaster → nightly automation and scheduling
 * samanote → notes (file-based)
 * dashboard → system homepage
+
+---
+
+## The Three Custom Apps 🧩
+
+Previous write-ups of nimory glossed over this, but three home-built apps are really what
+the whole machine is *for*. Everything else — Caddy, Immich, Nextcloud — is infrastructure
+in service of these:
+
+**Natlas** is the web UI — a single-user FastAPI + Alpine.js app for editing the flat-file
+vault: events, subscriptions, inventory, health, birthdays. Plugin-first: a new feature is a
+folder, not a change to the core.
+
+**Taskmaster** is the automation layer — one container, one internal scheduler, no OS-level
+cron. It runs a nightly pipeline over the same vault: rolling over old notes, advancing
+recurring events, syncing birthdays from Google Contacts, regenerating the static health site,
+and sending me a daily briefing over Telegram.
+
+**Nimo** is the AI persona, reachable two ways — as a Telegram bot I talk to directly, and as
+an internal chat backend Taskmaster calls for the nightly briefing. Backed by a local Ollama
+model, with an online fallback if I want it.
+
+All three read and write the same plain YAML/Markdown/CSV files in an Obsidian vault — no
+database, no API layer between them. That's deliberate: I can open any of these files by hand
+and understand exactly what's in it.
 
 ---
 
@@ -169,51 +204,50 @@ All persistent data lives on host:
 
     /home/datar/
     ├── data/
-    │   ├── notes/
+    │   ├── notes/       ← the vault: events, subscriptions, health, inventory, birthdays
+    │   ├── documents/   ← Syncthing
+    │   ├── music/       ← Syncthing
+    │   ├── photos/      ← manual, selected subset only (not Syncthing)
+    │   ├── share/       ← Samba, LAN only
     │   ├── backups/
     │   └── workspace/
     └── docker/
 
 * Containers mount host paths
-* Rebuilds don’t affect data
+* Rebuilds don't affect data
 
 ---
 
 ## Automation ⚙️
 
-Two cron jobs manage the system:
+Taskmaster replaces what used to be two host cron jobs. It runs its own scheduler inside one
+container, against `schedule.yml`, and works through a nightly pipeline against the vault:
 
-    30 2 * * * flock -n /tmp/notesctl.lock timeout 60m  ./notesctl
-    30 3 * * * flock -n /tmp/nimoryd.lock  timeout 180m ./nimoryd
+    archive rollover → inbox cleanup → subscriptions → event lifecycle
+      → birthday sync (weekly) → event updates → regenerate health site
+      → build daily briefing → send it to Telegram
 
-### notesctl
-
-* Creates daily notes
-* Removes empty notes
-* Archives old notes
-* Encrypts + uploads backups
-
-### nimoryd
-
-* Ensures Tailscale is running
-* Restarts containers
-* Updates compose stacks
-* Pulls git repos
-* Builds tools
-* Manages backups
+Nothing touches the vault without going through `yaml.safe_dump` — a past f-string YAML writer
+once corrupted an events file, so every writer (Natlas, Taskmaster, the Telegram bot) follows
+the same rule now.
 
 ---
 
 ## Security Model 🔐
 
 * No open router ports
-* No public SSH
+* No public SSH — Tailscale only
 * Internal-only databases
-* `no-new-privileges` enabled
-* Encrypted backups (AES-256)
+* `no-new-privileges` enabled on hardened containers
+* Encrypted backups
 * All access via Caddy
+* Secrets only in `.env` files — never in compose files or app config
 
-Attack surface is intentionally minimal.
+One deliberate exception: the dashboard has read-only access to the host filesystem and the
+Docker socket, which is how it shows live container and system stats. It's the one container
+with that level of visibility, and I'm keeping it that way on purpose rather than by oversight.
+
+Attack surface is otherwise intentionally minimal.
 
 ---
 
@@ -223,10 +257,11 @@ Attack surface is intentionally minimal.
 * Restore documentation
 * Backup retention policy
 * Advanced monitoring
+* A proper finance dashboard (demoarthik is the prototype)
+* Vector search over the vault (Postgres already has pgvector ready for it)
 
 ---
 
 nimory runs quietly and stays out of the way.
 
-It’s not complex for the sake of it. Just controlled, predictable, and entirely mine.
-
+It's not complex for the sake of it. Just controlled, predictable, and entirely mine.
