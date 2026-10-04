@@ -1,7 +1,7 @@
 ---
 title: "nimory: My Internet at Home"
 subtitle: "nihar's internet microcloud operating runtime yottabyte"
-date: 2026-10-03
+date: 2026-06-03
 tags: [home,note,generic]
 ---
 
