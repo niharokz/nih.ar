@@ -6,11 +6,17 @@
 <title>{{ config.get('site-title') }}</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content=" {{ config.get('desc') }}">
+<meta name="description" content=" {{ config.description }}">
 <link rel="shortcut icon" href="{{ config.get('fav') }}" />
-<link rel="alternate" type="application/atom+xml" title="Recent blog posts" href="/rss.xml">
+<link rel="canonical" href="{{ config.url }}/">
+<meta property="og:title" content="{{ config.get('site-title') }}" />
+<meta property="og:description" content="{{ config.description }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ config.url }}/" />
+<meta property="og:image" content="{{ config.image | absolute_url }}" />
+<meta name="twitter:card" content="summary" />
+<link rel="alternate" type="application/rss+xml" title="nih.ar" href="/rss.xml">
 <link rel="stylesheet" type="text/css" media="screen" href="{{ config.get('css') }}" />
-<link rel="pgpkey" type="application/pgp-keys" href="{{ config.get('pgpkey') }}">
 </head>
 
 <body>
@@ -21,7 +27,7 @@
 <section>
 {{article}}
 <ul>{% for post in posts %}{% if "home" in post.tags %}
-<li><time>{{ post.date.strftime('%Y-%m-%d') }}</time> -- <a href="{{ post.url[0:-5] }}">{% filter lower %} {{ post.title }} {% endfilter %}</a></li>{% endif %}{% endfor %}
+<li><time>{{ post.date.strftime('%Y-%m-%d') }}</time> -- <a href="{{ post.url }}">{% filter lower %} {{ post.title }} {% endfilter %}</a></li>{% endif %}{% endfor %}
 </ul>
 </section>
 <section>

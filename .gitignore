@@ -1,3 +1,5 @@
 public
 gem
 *.bak
+.rynz-cache.json
+public-*/

@@ -5,8 +5,7 @@ before_script:
 
 pages:
   script:
-    - rynz deploy
-      #    - curl -o public/nss.css https://gitlab.com/niharokz/nss/-/raw/main/nss.min.css
+    - rynz build --check
   artifacts:
     paths:
       - public

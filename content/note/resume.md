@@ -17,7 +17,6 @@ nihar@nihars.com | nih.ar | linkedin.com/in/niharsamantaray
 ---
 
 ### Skills
-----
 
 **Banking & Domain**
 - Retail Loans, Core Banking, Financial Accounting
@@ -43,7 +42,6 @@ nihar@nihars.com | nih.ar | linkedin.com/in/niharsamantaray
 ---
 
 ### Work Experience
-----------------
 
 #### **Technical Lead - Aziro Technologies**  
 *Bhubaneswar, India | Aug 2024 - Present*
@@ -99,7 +97,6 @@ nihar@nihars.com | nih.ar | linkedin.com/in/niharsamantaray
 ---
 
 ### Technical & Functional Expertise
-----------------
 
 - Strong experience in PL/SQL programming, procedures, and query optimization.
 - Hands-on experience in Finacle customization, APIs, and batch processing.
@@ -111,7 +108,6 @@ nihar@nihars.com | nih.ar | linkedin.com/in/niharsamantaray
 ---
 
 ### Education & Projects
-----------------
 
 - **B.Tech in Computer Science Engineering (2012–2016)** — BPUT
 

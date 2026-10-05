@@ -11,26 +11,44 @@
 #       SOURCE [config.yml] LAST MODIFIED ON 27-02-2024.
 #
 
-# Mandatory Configuration
-title : nih.ar
-url : https://nih.ar
-note_template : template/note_template.html   # Template of note page
-home_template : template/home_template.html   # Template of home page
-feed_template : template/feed_template.xml   # Template of feed/rss page
-home_path : public  # After built, static files will be generated here
-content_path : content # All post notes markdown location
-resource_path : resource # All css, js, image location
-home_md : content/home.md # Homepage content
-header_md : content/header.md # Header content
-footer_md : content/footer.md # Footer content
+# Required
+title: nih.ar
+url: https://nih.ar
+description: Personal webpage of Nihar Samantaray, a banking developer from India who is interested on Open Source projects and linux environment. He also writes technical stuffs.
+email: hi@nihars.com
+language: en-IN
+image: /logo_256x256.png       # default social preview image
 
-# Optional Configuration, Add your own configs here
-site-title : nihar's page on the internet
-desc : Personal webpage of Nihar Samantaray, a banking developer from India who is interested on Open Source projects and linux environment. He also writes technical stuffs.
-css : nss.css
-fav : favicon.ico
-pht : logo.png
-mail : hi@nihars.com
+# Links are written as /page (GitLab Pages serves page.html); sitemap and canonical use the same form
+urls: clean
 
-homefooter : '<p># Member of <a href="https://250kb.club//">250kb.club</a>, <a href="https://darktheme.club/">darktheme.club</a>, <a href="https://no-js.club/">no-js.club</a> and <a href="https://namehack.club/">namehack.club</a>.</p>'
+# Pages tagged "home" are the posts: listed on the home page and in the feed
+posts:
+  tag: home
 
+paths:
+  content: content             # all markdown
+  templates: template          # note, home and feed templates
+  static: resource             # css, images, files copied as-is
+  output: public               # built site
+
+partials:
+  home: content/home.md        # homepage content
+  header: content/header.md    # header content
+  footer: content/footer.md    # footer content
+
+templates:
+  note: note_template.html
+  home: home_template.html
+  trim_blocks: false           # keep the templates' whitespace exactly as before
+
+feed:
+  template: feed_template.xml
+
+# Used by the templates
+site-title: nihar's page on the internet
+css: nss.css
+fav: favicon.ico
+pht: logo.png
+
+homefooter: '<p># Member of <a href="https://250kb.club/">250kb.club</a>, <a href="https://darktheme.club/">darktheme.club</a>, <a href="https://no-js.club/">no-js.club</a> and <a href="https://namehack.club/">namehack.club</a>.</p>'
