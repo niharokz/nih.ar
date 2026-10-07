@@ -4,12 +4,12 @@ This site is my small internet home. Here you'll find notes about my tech intere
 
 ## # project
 
-- [Rynz](https://pypi.org/project/rynz/): Python-based static page generator.
+- [Rynz](https://pypi.org/project/rynz/): Simple static page generator.
 - [Websites](/website_collection.html): Collection of website designs.
 - [Narch](https://gitlab.com/niharokz/narch): DIY command-line tools and apps.
 - [NSS](https://gitlab.com/niharokz/nss): Awesome Personal CSS framework.
 - [Arthik](https://arthik.nihars.com): Ledger Personal Finance tracker.
-- [Natlas](https://data.nihars.com): Personal server inventory dashboard.
+- [Natlas](https://data.nihars.com): Personal Inventory Management.
 
 ## # note
 
