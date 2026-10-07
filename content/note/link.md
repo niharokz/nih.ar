@@ -38,7 +38,9 @@ date : 2026-03-24
   <ul>
     <li><a href="/anime">📺 Anime</a></li>
     <li><a href="/domain">🌐 Domains</a></li>
+    <li><a href="https://home.nihars.com">📡Nimory Homelab</a></li>
     <li><a href="/uses">🖥️ My Setup</a></li>
+    <li><a href="https://health.nihars.com">💪Health</a></li>
   </ul>
 </section>
 <hr />

@@ -12,6 +12,7 @@ Feel free to leave me a link to your own site if you want it to appear amongst t
 ## Friends
 
 - [Nick Gray](https://nickgray.net)
+- [Vignesh Muthukumaran](https://vignesh.page)
 
 ### Personal sites that inspire
 
