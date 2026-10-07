@@ -7,14 +7,14 @@ date : 2026-10-07
 
 ## Presently
 
-- Training for my first **half marathon**, one long run at a time.
-- Working remotely as a **Technical Lead at [Aziro](https://www.aziro.com)**.
-- Building and tinkering with **[NIMORY](https://home.nihars.com)**, my personal homelab.
-- Experimenting with **AI, automation, and small side projects**.
-- Building **Nimo**, my personal AI assistant.
-- Slowly turning my notes and projects into a personal **Life OS**.
+- Training for my first half marathon, one long run at a time.
+- Working remotely as a Technical Lead at [Aziro](https://www.aziro.com).
+- Building and tinkering with [NIMORY](https://home.nihars.com), my personal homelab.
+- Experimenting with AI, automation, and small side projects.
+- Building Nimo, my personal AI assistant.
+- Slowly turning my notes and projects into a personal Life OS.
 - Travelling every now and then, whenever I need a change of scenery.
-- Writing, experimenting, and breaking things on **nih.ar**.
+- Writing, experimenting, and breaking things on nih.ar.
 - Running, lifting, and generally trying to stay healthier than yesterday.
 - Watching [anime](/anime), listening to music, and figuring out what comes next.
 
