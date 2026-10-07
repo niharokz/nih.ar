@@ -7,6 +7,8 @@ tags: [generic]
 
 The web should be personal. Here you will find some of the people I draw inspiration from, people I find fascinating, and the websites of friends I've made along the way. Inspired by Nick Gray's [slashfriends.org](https://slashfriends.org/).
 
+Feel free to leave me a link to your own site if you want it to appear amongst the list.
+
 ## Friends
 
 - [Nick Gray](https://nickgray.net)

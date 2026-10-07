@@ -2,7 +2,7 @@
 title : "Privacy Policy"
 subtitle : "Privacy"
 tags: [general]
-date : 2012-09-04
+date : 2022-09-04
 ---
 
 - The opinions expressed here are solely mine and do not represent those of my current, past, or future employers.

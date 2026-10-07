@@ -1,4 +1,6 @@
-Namaste! I'm [Nihar](/nihar), a hobbyist systems programmer from India. 
+## # whoami
+
+Hi, I'm [Nihar](/nihar). I build things, break things, and write about both.
 
 This site is my small internet home. Here you'll find notes about my tech interests, things I've done, tips, and experiments. Find out how [this website works](/colophon).
 
