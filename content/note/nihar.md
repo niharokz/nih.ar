@@ -1,6 +1,6 @@
 ---
 title : "Nihar Samantaray"
-subtitle : "Discover Nihar Samantaray, a passionate tech leader with over 9 years of experience in the financial sector. Explore his journey, insights, and professional expertise at https://nih.ar/nihar."
+subtitle : "Nihar Samantaray is a Finacle techno-functional lead and backend developer from India who loves the command line and self-hosting."
 tags: [note,general]
 date : 2024-09-05
 ---

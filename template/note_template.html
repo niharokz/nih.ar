@@ -4,9 +4,8 @@
 <head>
 <meta charset="utf-8">
 <title>{{ post_title }}</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content=" {{ post_subtitle }}">
+<meta name="description" content="{{ post_subtitle }}">
 <meta property="og:title" content="{{ post_title }}" />
 <meta property="og:description" content="{{ post_subtitle }}" />
 <meta property="og:type" content="article" />
@@ -16,12 +15,14 @@
 <meta property="twitter:title" content="{{ post_title }}" />
 <meta property="twitter:text:title" content="{{ post_title }}" />
 <meta property="twitter:description" content="{{ post_subtitle }}" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:site_name" content="{{ config.get('site-title') }}" />
+<meta property="og:locale" content="en_IN" />
+<meta name="author" content="Nihar Samantaray">
 <meta property="twitter:image" content="{{ (page.image or config.image) | absolute_url }}" />
 <link rel="shortcut icon" href="{{ config.get('fav') }}" />
 <link rel="stylesheet" type="text/css" media="screen" href="{{ config.get('css') }}" />
-<link rel="canonical" href="{{ page.permalink }}">
-<link rel="alternate" type="application/rss+xml" title="nih.ar" href="/rss.xml">
+{% if not page.noindex %}<link rel="canonical" href="{{ page.permalink }}">{% endif %}
+<link rel="alternate" type="application/rss+xml" title="{{ config.get('site-title') }}" href="/rss.xml">
 {% if page.noindex %}<meta name="robots" content="noindex">
 {% endif %}{% if metad %}{{ metad }} {% endif %}
 </head>

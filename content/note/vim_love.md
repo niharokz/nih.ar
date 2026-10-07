@@ -1,6 +1,6 @@
 ---
 title: Why I Really Really Really Love VIM!
-subtitle: VIM or NeoVIM! Simple yet powerful text editor that can become an obsession in no time. This note is a reference for the most common commands.
+subtitle: "Why Vim and Neovim became my editor, plus a reference of the commands I use most: motions, registers, macros and buffers."
 tags: [note,home]
 date: 2018-12-18
 ---

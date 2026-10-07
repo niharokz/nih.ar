@@ -1,22 +1,23 @@
 ---
-title : "nihar's now"
-subtitle : "now"
+title : "What I'm Doing Now"
+subtitle : "What Nihar Samantaray is focused on right now: work at Aziro, remote work and travel, and current projects."
 tags: [note,general]
-date : 2025-11-11
+date : 2026-10-07
 ---
-
 
 ## Presently
 
-- Turning 30: a fresh chapter where experience fuels new ambitions.
-- Embracing the freedom to work remotely, blending travel with tech.
-- Leading as Technical Lead at [Aziro](https://www.aziro.com), diving into diverse tech challenges.
-- Automating daily grind with projects like [narch](https://gitlab.com/niharokz/narch).
-- Jamming to Nirvana's [Smells Like Teen Spirit](https://www.youtube.com/watch?v=hTWKbfoikeg) — timeless rock energy.
-- Designing and maintaining this website — always evolving.
-- Anime lover indulging in curated [anime](/anime) breaks.
-- Exploring the stock market — a thrilling learning curve.
-- Contemplating life’s purpose, one stair at a time.
+- Training for my first **half marathon**, one long run at a time.
+- Working remotely as a **Technical Lead at [Aziro](https://www.aziro.com)**.
+- Building and tinkering with **[NIMORY](https://home.nihars.com)**, my personal homelab.
+- Experimenting with **AI, automation, and small side projects**.
+- Building **Nimo**, my personal AI assistant.
+- Slowly turning my notes and projects into a personal **Life OS**.
+- Travelling every now and then, whenever I need a change of scenery.
+- Writing, experimenting, and breaking things on **nih.ar**.
+- Running, lifting, and generally trying to stay healthier than yesterday.
+- Watching [anime](/anime), listening to music, and figuring out what comes next.
+
 
 ## Past Adventures
 

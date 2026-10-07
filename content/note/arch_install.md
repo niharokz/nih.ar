@@ -1,6 +1,6 @@
 ---
-title : "Arch Linux installation Guide"
-subtitle : "Arch Installation process is the gap between newbie and pro. Any Linux installation without any installer is good way to understand basic linux architecture."
+title : "Arch Linux Installation Guide"
+subtitle : "Install Arch Linux by hand in 12 steps, from a bootable USB and disk setup to GRUB, users and networking."
 tags: [note,home]
 date : 2023-09-16
 ---

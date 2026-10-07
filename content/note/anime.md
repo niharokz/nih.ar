@@ -1,8 +1,8 @@
 ---
-title : "otaku for life"
-subtitle : "Anime Collection"
+title : "Otaku for Life: My Anime List"
+subtitle : "The anime and manga I've loved since Dragon Ball Z in 2003, from One Piece to my current must-watch list."
 tags: [note]
-date : 2026-04-26
+date : 2026-10-07
 ---
         
 It was the year 2003, and there I was, a wide-eyed 9-year-old, glued to the television screen, entranced by the epic battles unfolding in Dragon Ball Z on Cartoon Network. Little did I know, that was the beginning of a lifelong love affair with anime and manga.
@@ -29,6 +29,7 @@ Over the years, I've delved into countless manga series and immersed myself in t
 * Takopi's Original Sin
 * Jujutsu Kaisen
 * Chainsaw Man
+* Akira
 
 \# to watch
 

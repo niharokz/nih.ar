@@ -1,6 +1,6 @@
 ---
 title : "About this website"
-subtitle : "About this website"
+subtitle : "How nih.ar is built: plain HTML from the rynz static site generator, a class-free stylesheet, no JavaScript and no tracking."
 tags: [note,general]
 date : 2026-10-05
 ---

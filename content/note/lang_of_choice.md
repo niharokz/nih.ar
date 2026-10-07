@@ -1,6 +1,6 @@
 ---
-title : "Problem-solving Without Borders"
-subtitle : "The axiom of programming is to solve problems. The motto should be to solve the problem fast and efficiently."
+title : "Pick the Problem, Not the Programming Language"
+subtitle : "After C, Python, Rust, Haskell, Go and Nim: why the problem should choose the programming language, not habit."
 tags: [note,home]
 date : 2020-08-29
 ---

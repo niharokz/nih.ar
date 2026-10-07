@@ -1,6 +1,6 @@
 ---
-title : "nihar's - what i use"
-subtitle : "nihar's - what i use"
+title : "What I Use"
+subtitle : "The hardware, apps, editors and services I use every day, from Debian and Neovim to Zoho Mail."
 tags: [general]
 date : 2026-03-24
 ---
@@ -26,5 +26,5 @@ What I use at work on a day to day basis, changes from time to time but I’ll t
 * **Browser**   :   Microsoft Edge!
 
 ## Subscriptions
-* **Email Service** :   [Zoho Mail](https://go.zoho.com/4r5). I have tried tutanota previously. But Zoho Mail ticks all the boxes I wanted.
-* **Server**: This site is currently hosted by [Gitlab](https://gitlab.org). Previously, it was hosted by [Linode](https://www.linode.com/lp/refer/?r=3ca2cdc5c593c9aee9d47d9a962769cb72485382).
+* **Email Service** :   <a href="https://go.zoho.com/4r5" rel="sponsored">Zoho Mail</a>. I have tried tutanota previously. But Zoho Mail ticks all the boxes I wanted.
+* **Server**: This site is currently hosted by [Gitlab](https://gitlab.org). Previously, it was hosted by <a href="https://www.linode.com/lp/refer/?r=3ca2cdc5c593c9aee9d47d9a962769cb72485382" rel="sponsored">Linode</a>.

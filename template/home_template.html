@@ -4,9 +4,8 @@
 <head>
 <meta charset="utf-8">
 <title>{{ config.get('site-title') }}</title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content=" {{ config.description }}">
+<meta name="description" content="{{ config.description }}">
 <link rel="shortcut icon" href="{{ config.get('fav') }}" />
 <link rel="canonical" href="{{ config.url }}/">
 <meta property="og:title" content="{{ config.get('site-title') }}" />
@@ -14,8 +13,10 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ config.url }}/" />
 <meta property="og:image" content="{{ config.image | absolute_url }}" />
-<meta name="twitter:card" content="summary" />
-<link rel="alternate" type="application/rss+xml" title="nih.ar" href="/rss.xml">
+<meta property="og:site_name" content="{{ config.get('site-title') }}" />
+<meta property="og:locale" content="en_IN" />
+<meta name="author" content="Nihar Samantaray">
+<link rel="alternate" type="application/rss+xml" title="{{ config.get('site-title') }}" href="/rss.xml">
 <link rel="stylesheet" type="text/css" media="screen" href="{{ config.get('css') }}" />
 </head>
 

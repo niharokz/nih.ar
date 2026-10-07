@@ -1,6 +1,6 @@
 ---
 title : "Self-Hosting your Gemini Capsule"
-subtitle : "All about Gemini Protocol and Capsule."
+subtitle : "What the Gemini protocol is and how to self-host a Gemini capsule next to your website, on port 1965, with its own user."
 tags: [note,home]
 date : 2022-03-23
 ---

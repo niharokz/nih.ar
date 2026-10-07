@@ -1,6 +1,6 @@
 ---
-title: "Yesteryears Websites"
-subtitle: "Not a front end developer. But this is something I grew up with. Here is my collection of a few random websites/blogs from yesteryears."
+title: "Websites I Built Years Ago"
+subtitle: "Screenshots of websites and blogs I designed in my early web years, from conference sites to small business pages."
 date: 2017-01-26
 tags: [note,general]
 ---

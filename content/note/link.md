@@ -1,6 +1,6 @@
 ---
-title : "nihar's wiki"
-subtitle : "This is a collection of notes, pages, links, and other resources."
+title : "Links"
+subtitle : "Everything on nih.ar in one place, plus my profiles on GitLab, GitHub, Codeberg, Fosstodon and more."
 tags: [note,general]
 date : 2026-03-24
 ---
@@ -38,7 +38,6 @@ date : 2026-03-24
   <ul>
     <li><a href="/anime">📺 Anime</a></li>
     <li><a href="/domain">🌐 Domains</a></li>
-    <li><a href="/crypto">💰 Crypto</a></li>
     <li><a href="/uses">🖥️ My Setup</a></li>
   </ul>
 </section>

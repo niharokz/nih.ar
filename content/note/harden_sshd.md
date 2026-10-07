@@ -1,6 +1,6 @@
 ---
-title : "Ultimate Guide to Hardening SSH"
-subtitle : "Secure your server with our comprehensive guide to hardening SSH. Learn essential steps to prevent unauthorized access, including changing default ports, disabling root login, enabling key-based authentication, and more. Fortify your SSH server today for a more resilient and secure environment."
+title : "Hardening SSH: A Step-by-Step Guide"
+subtitle : "Harden SSH on a Linux server: change the port, disable root and password logins, use keys only, limit users and set idle timeouts."
 tags: [note,home]
 date : 2024-04-15
 ---

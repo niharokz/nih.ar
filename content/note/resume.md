@@ -1,6 +1,6 @@
 ---
-title : "nihar's resume"
-subtitle : "nihar's resume"
+title : "Nihar Samantaray – Resume"
+subtitle : "Resume of Nihar Samantaray, Finacle techno-functional lead with 8+ years in banking software. Download as PDF, Markdown or Word."
 tags: [general]
 date : 2026-03-24
 ---

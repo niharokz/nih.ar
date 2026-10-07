@@ -1,6 +1,6 @@
 ---
-title : "Speed Up Your CLI with Aliases"
-subtitle : "Streamline your command line experience with these useful Bash aliases. Save time and reduce typing errors with shortcuts for common tasks. Boost your productivity today!"
+title : "Speed Up Your CLI with Bash Aliases"
+subtitle : "Bash aliases I use every day for git, ls, Neovim, Python venvs and system info: fewer keystrokes, fewer typos."
 tags: [note,home]
 date : 2024-06-09
 ---

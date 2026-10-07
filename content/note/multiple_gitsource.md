@@ -1,6 +1,6 @@
 ---
-title : "CLI sync for GitLab, GitHub, Codeberg" 
-subtitle : "use gitlab and github together for same repository on one machine" 
+title : "Sync GitLab, GitHub and Codeberg from the CLI" 
+subtitle : "Push and pull one repository to GitLab, GitHub and Codeberg from the command line, keeping the three independent instead of mirrored." 
 tags: [note,home]
 date : 2021-02-14
 ---

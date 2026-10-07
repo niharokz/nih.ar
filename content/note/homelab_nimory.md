@@ -1,6 +1,6 @@
 ---
 title: "nimory: My Internet at Home"
-subtitle: "nihar's internet microcloud operating runtime yottabyte"
+subtitle: "How I run files, photos, notes, finance and a self-hosted AI on one home server with Go apps, Docker, Caddy and a Cloudflare Tunnel."
 date: 2026-06-06
 tags: [home,note,generic]
 ---

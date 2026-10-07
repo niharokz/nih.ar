@@ -1,6 +1,6 @@
 ---
 title : "Organizing XDG Base Directory"
-subtitle : "Using XDG Base Directory specification, declutter the home directory"
+subtitle : "Declutter your Linux home folder with the XDG Base Directory spec: the variables to set and where each app's files go."
 tags: [note,home]
 date : 2021-05-07
 ---
